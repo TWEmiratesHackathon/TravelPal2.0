@@ -1,0 +1,63 @@
+<div class="container" style="margin-top:  120px; background-color: #CBE3EB; padding: 0px 15px 0;">
+  <div class="row">
+    <div class="col-md-12">
+      <h1 style="color: #435868; font-family:helvetica">Dashboard</h1>
+      <div class="row" style="height: 145px;">
+        <div class="col-md-3">
+          <div class="accomplishment">
+            <p style="color: #349CC2;font-family:helvetica">4</p>
+            <span style="font-family:helvetica">Missions</span>
+          </div>
+
+        </div>
+        <div class="col-md-3">
+          <div class="accomplishment">
+            <p style="color: #A4AD40;font-family:helvetica">6</p>
+            <span style="font-family:helvetica">Tasks</span>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="accomplishment">
+            <p style="color: #7B9E61;font-family:helvetica">1</p>
+            <span style="font-family:helvetica">Continents</span>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="accomplishment">
+            <p style="color: #C96457;font-family:helvetica">1</p>
+            <span style="font-family:helvetica">Countries</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
+<div class="container" style="margin-top: -40px;">
+  <div class="row">
+    <div class="col-md-12 mapQuest">
+      Map Quest
+    </div>
+    <div id="googleMap" style="width:1170px;height:300px;"></div>
+  </div>
+</div>
+
+<div class="container" style="margin-top: -40px;">
+  <div class="row bottom-buffer">
+    <% @mission_stories.each do |story| %>
+        <div class="col-md-3 bottom-buffer">
+          <div class="thumbnail" >
+            <%#= image_tag story.transactions.find(6).tx_image.url(:medium) %>
+            <%= link_to (image_tag story.transactions.first.tx_image.url(:medium)), {:controller => 'stories', :action => 'show', :id => 1}, {:class=>'img_as_a_link'} %>
+            <div class="caption">
+              <h4><%= story.mission.name %></h4>
+              <p><%= story.from_date.to_formatted_s(:long) %><br/> to<br/> <%= story.to_date.to_formatted_s(:long) %></p>
+              <!--<p><a href="#" class="btn btn-primary">Edit</a> <a href="#" class="btn btn-primary">Delete</a></p>-->
+            </div>
+          </div>
+        </div>
+    <% end %>
+  </div>
+</div>

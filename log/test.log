@@ -1,0 +1,1830 @@
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+
+
+Started GET "/stories/new" for 127.0.0.1 at 2013-09-15 14:34:02 -0700
+Processing by StoriesController#new as HTML
+Completed 500 Internal Server Error in 3ms
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+
+
+Started GET "/home" for 127.0.0.1 at 2013-09-15 14:35:10 -0700
+Processing by HomeController#index as HTML
+Completed 500 Internal Server Error in 3ms
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+
+
+Started GET "/home" for 127.0.0.1 at 2013-09-15 14:38:29 -0700
+Processing by HomeController#index as HTML
+Completed 500 Internal Server Error in 3ms
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+
+
+Started GET "/home/index" for 127.0.0.1 at 2013-09-15 14:39:01 -0700
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+
+
+Started GET "/home" for 127.0.0.1 at 2013-09-15 14:39:23 -0700
+Processing by HomeController#index as HTML
+Completed 500 Internal Server Error in 3ms
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+
+
+Started GET "/home" for 127.0.0.1 at 2013-09-15 14:41:55 -0700
+Processing by HomeController#index as HTML
+  [1m[35mStory Load (0.1ms)[0m  SELECT "stories".* FROM "stories" LIMIT 8 OFFSET 0
+  Rendered home/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 29ms (Views: 22.9ms | ActiveRecord: 1.3ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+
+
+Started GET "/home" for 127.0.0.1 at 2013-09-15 15:45:19 -0700
+Processing by HomeController#index as HTML
+  [1m[35mStory Load (0.6ms)[0m  SELECT "stories".* FROM "stories" LIMIT 8 OFFSET 0
+  Rendered home/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 79ms (Views: 23.9ms | ActiveRecord: 50.2ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+
+
+Started GET "/stories/new" for 127.0.0.1 at 2013-09-15 15:52:16 -0700
+Processing by StoriesController#new as HTML
+  [1m[35mUser Load (0.5ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+Redirected to http://www.example.com/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 58ms (ActiveRecord: 49.8ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Load (4.7ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.6ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."username" = 'jeff' LIMIT 1[0m
+  [1m[35mSQL (3.4ms)[0m  INSERT INTO "users" ("avatar_content_type", "avatar_file_name", "avatar_file_size", "avatar_updated_at", "birthday", "created_at", "email", "gender", "location", "password_digest", "profile_img_url", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["avatar_content_type", nil], ["avatar_file_name", nil], ["avatar_file_size", nil], ["avatar_updated_at", nil], ["birthday", nil], ["created_at", Sun, 15 Sep 2013 23:08:33 UTC +00:00], ["email", "abc@yahoo.com"], ["gender", nil], ["location", nil], ["password_digest", "55555"], ["profile_img_url", nil], ["updated_at", Sun, 15 Sep 2013 23:08:33 UTC +00:00], ["username", "jeff"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (1.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.6ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."username" = 'jeff' LIMIT 1[0m
+  [1m[35mSQL (2.7ms)[0m  INSERT INTO "users" ("avatar_content_type", "avatar_file_name", "avatar_file_size", "avatar_updated_at", "birthday", "created_at", "email", "gender", "location", "password_digest", "profile_img_url", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["avatar_content_type", nil], ["avatar_file_name", nil], ["avatar_file_size", nil], ["avatar_updated_at", nil], ["birthday", nil], ["created_at", Sun, 15 Sep 2013 23:10:26 UTC +00:00], ["email", "abc@yahoo.com"], ["gender", nil], ["location", nil], ["password_digest", "55555"], ["profile_img_url", nil], ["updated_at", Sun, 15 Sep 2013 23:10:26 UTC +00:00], ["username", "jeff"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+
+
+Started GET "/login" for 127.0.0.1 at 2013-09-15 16:10:26 -0700
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 76ms (Views: 75.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2013-09-15 16:10:26 -0700
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "username"=>"jeff", "password"=>"[FILTERED]", "commit"=>"Login"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."username" = 'jeff' AND "users"."password_digest" = '55555' LIMIT 1
+Redirected to http://www.example.com/me
+Completed 302 Found in 6ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/me" for 127.0.0.1 at 2013-09-15 16:10:26 -0700
+Processing by MeController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mStory Load (0.6ms)[0m  SELECT "stories".* FROM "stories" WHERE "stories"."user_id" = 1
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered me/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 18ms (Views: 12.6ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/stories/new" for 127.0.0.1 at 2013-09-15 16:10:26 -0700
+Processing by StoriesController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+Redirected to http://www.example.com/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.2ms)
+  [1m[36m (0.4ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."username" = 'jeff' LIMIT 1[0m
+  [1m[35mSQL (2.2ms)[0m  INSERT INTO "users" ("avatar_content_type", "avatar_file_name", "avatar_file_size", "avatar_updated_at", "birthday", "created_at", "email", "gender", "location", "password_digest", "profile_img_url", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["avatar_content_type", nil], ["avatar_file_name", nil], ["avatar_file_size", nil], ["avatar_updated_at", nil], ["birthday", nil], ["created_at", Sun, 15 Sep 2013 23:11:11 UTC +00:00], ["email", "abc@yahoo.com"], ["gender", nil], ["location", nil], ["password_digest", "55555"], ["profile_img_url", nil], ["updated_at", Sun, 15 Sep 2013 23:11:11 UTC +00:00], ["username", "jeff"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+
+
+Started GET "/login" for 127.0.0.1 at 2013-09-15 16:11:11 -0700
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 74ms (Views: 73.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2013-09-15 16:11:11 -0700
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "username"=>"jeff", "password"=>"[FILTERED]", "commit"=>"Login"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."username" = 'jeff' AND "users"."password_digest" = '55555' LIMIT 1
+Redirected to http://www.example.com/me
+Completed 302 Found in 5ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/me" for 127.0.0.1 at 2013-09-15 16:11:11 -0700
+Processing by MeController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mStory Load (0.1ms)[0m  SELECT "stories".* FROM "stories" WHERE "stories"."user_id" = 1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered me/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 17ms (Views: 12.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/stories/new" for 127.0.0.1 at 2013-09-15 16:11:11 -0700
+Processing by StoriesController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+Redirected to http://www.example.com/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.2ms)
+  [1m[36m (0.5ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."username" = 'jeff' LIMIT 1[0m
+  [1m[35mSQL (2.6ms)[0m  INSERT INTO "users" ("avatar_content_type", "avatar_file_name", "avatar_file_size", "avatar_updated_at", "birthday", "created_at", "email", "gender", "location", "password_digest", "profile_img_url", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["avatar_content_type", nil], ["avatar_file_name", nil], ["avatar_file_size", nil], ["avatar_updated_at", nil], ["birthday", nil], ["created_at", Sun, 15 Sep 2013 23:14:35 UTC +00:00], ["email", "abc@yahoo.com"], ["gender", nil], ["location", nil], ["password_digest", "55555"], ["profile_img_url", nil], ["updated_at", Sun, 15 Sep 2013 23:14:35 UTC +00:00], ["username", "jeff"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+
+
+Started GET "/login" for 127.0.0.1 at 2013-09-15 16:14:35 -0700
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 73ms (Views: 72.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2013-09-15 16:14:35 -0700
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "username"=>"jeff", "password"=>"[FILTERED]", "commit"=>"Login"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."username" = 'jeff' AND "users"."password_digest" = '55555' LIMIT 1
+Redirected to http://www.example.com/me
+Completed 302 Found in 5ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/me" for 127.0.0.1 at 2013-09-15 16:14:35 -0700
+Processing by MeController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mStory Load (0.1ms)[0m  SELECT "stories".* FROM "stories" WHERE "stories"."user_id" = 1
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered me/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 16ms (Views: 11.6ms | ActiveRecord: 0.7ms)
+  [1m[35m (0.6ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."username" = 'jeff' LIMIT 1[0m
+  [1m[35mSQL (2.3ms)[0m  INSERT INTO "users" ("avatar_content_type", "avatar_file_name", "avatar_file_size", "avatar_updated_at", "birthday", "created_at", "email", "gender", "location", "password_digest", "profile_img_url", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["avatar_content_type", nil], ["avatar_file_name", nil], ["avatar_file_size", nil], ["avatar_updated_at", nil], ["birthday", nil], ["created_at", Sun, 15 Sep 2013 23:15:51 UTC +00:00], ["email", "abc@yahoo.com"], ["gender", nil], ["location", nil], ["password_digest", "55555"], ["profile_img_url", nil], ["updated_at", Sun, 15 Sep 2013 23:15:51 UTC +00:00], ["username", "jeff"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+
+
+Started GET "/login" for 127.0.0.1 at 2013-09-15 16:15:51 -0700
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 73ms (Views: 72.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2013-09-15 16:15:51 -0700
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "username"=>"jeff", "password"=>"[FILTERED]", "commit"=>"Login"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."username" = 'jeff' AND "users"."password_digest" = '55555' LIMIT 1
+Redirected to http://www.example.com/me
+Completed 302 Found in 5ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/me" for 127.0.0.1 at 2013-09-15 16:15:51 -0700
+Processing by MeController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mStory Load (0.1ms)[0m  SELECT "stories".* FROM "stories" WHERE "stories"."user_id" = 1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered me/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 16ms (Views: 11.4ms | ActiveRecord: 0.7ms)
+  [1m[35m (2.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.6ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."username" = 'jeff' LIMIT 1[0m
+  [1m[35mSQL (2.7ms)[0m  INSERT INTO "users" ("avatar_content_type", "avatar_file_name", "avatar_file_size", "avatar_updated_at", "birthday", "created_at", "email", "gender", "location", "password_digest", "profile_img_url", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["avatar_content_type", nil], ["avatar_file_name", nil], ["avatar_file_size", nil], ["avatar_updated_at", nil], ["birthday", nil], ["created_at", Sun, 15 Sep 2013 23:16:44 UTC +00:00], ["email", "abc@yahoo.com"], ["gender", nil], ["location", nil], ["password_digest", "55555"], ["profile_img_url", nil], ["updated_at", Sun, 15 Sep 2013 23:16:44 UTC +00:00], ["username", "jeff"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+
+
+Started GET "/login" for 127.0.0.1 at 2013-09-15 16:16:44 -0700
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 77ms (Views: 76.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2013-09-15 16:16:44 -0700
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "username"=>"jeff", "password"=>"[FILTERED]", "commit"=>"Login"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."username" = 'jeff' AND "users"."password_digest" = '55555' LIMIT 1
+Redirected to http://www.example.com/me
+Completed 302 Found in 5ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/me" for 127.0.0.1 at 2013-09-15 16:16:44 -0700
+Processing by MeController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mStory Load (0.6ms)[0m  SELECT "stories".* FROM "stories" WHERE "stories"."user_id" = 1
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered me/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 18ms (Views: 12.5ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/stories/new" for 127.0.0.1 at 2013-09-15 16:16:44 -0700
+Processing by StoriesController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+Redirected to http://www.example.com/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.2ms)
+  [1m[36m (2.1ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.6ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."username" = 'jeff' LIMIT 1[0m
+  [1m[35mSQL (3.3ms)[0m  INSERT INTO "users" ("avatar_content_type", "avatar_file_name", "avatar_file_size", "avatar_updated_at", "birthday", "created_at", "email", "gender", "location", "password_digest", "profile_img_url", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["avatar_content_type", nil], ["avatar_file_name", nil], ["avatar_file_size", nil], ["avatar_updated_at", nil], ["birthday", nil], ["created_at", Sun, 15 Sep 2013 23:19:47 UTC +00:00], ["email", "abc@yahoo.com"], ["gender", nil], ["location", nil], ["password_digest", "55555"], ["profile_img_url", nil], ["updated_at", Sun, 15 Sep 2013 23:19:47 UTC +00:00], ["username", "jeff"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+
+
+Started GET "/login" for 127.0.0.1 at 2013-09-15 16:19:47 -0700
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 74ms (Views: 73.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2013-09-15 16:19:47 -0700
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "username"=>"jeff", "password"=>"[FILTERED]", "commit"=>"Login"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."username" = 'jeff' AND "users"."password_digest" = '55555' LIMIT 1
+Redirected to http://www.example.com/me
+Completed 302 Found in 5ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/me" for 127.0.0.1 at 2013-09-15 16:19:47 -0700
+Processing by MeController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mStory Load (0.5ms)[0m  SELECT "stories".* FROM "stories" WHERE "stories"."user_id" = 1
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered me/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 17ms (Views: 12.1ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/stories/new" for 127.0.0.1 at 2013-09-15 16:19:48 -0700
+Processing by StoriesController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  Rendered stories/_form.html.erb (78.5ms)
+  Rendered stories/new.html.erb within layouts/application (84.6ms)
+Completed 200 OK in 115ms (Views: 94.0ms | ActiveRecord: 0.2ms)
+  [1m[36m (0.6ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.6ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."username" = 'jeff' LIMIT 1[0m
+  [1m[35mSQL (2.7ms)[0m  INSERT INTO "users" ("avatar_content_type", "avatar_file_name", "avatar_file_size", "avatar_updated_at", "birthday", "created_at", "email", "gender", "location", "password_digest", "profile_img_url", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["avatar_content_type", nil], ["avatar_file_name", nil], ["avatar_file_size", nil], ["avatar_updated_at", nil], ["birthday", nil], ["created_at", Sun, 15 Sep 2013 23:23:07 UTC +00:00], ["email", "abc@yahoo.com"], ["gender", nil], ["location", nil], ["password_digest", "55555"], ["profile_img_url", nil], ["updated_at", Sun, 15 Sep 2013 23:23:07 UTC +00:00], ["username", "jeff"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+
+
+Started GET "/login" for 127.0.0.1 at 2013-09-15 16:23:07 -0700
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 74ms (Views: 73.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2013-09-15 16:23:07 -0700
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "username"=>"jeff", "password"=>"[FILTERED]", "commit"=>"Login"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."username" = 'jeff' AND "users"."password_digest" = '55555' LIMIT 1
+Redirected to http://www.example.com/me
+Completed 302 Found in 5ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/me" for 127.0.0.1 at 2013-09-15 16:23:07 -0700
+Processing by MeController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mStory Load (0.6ms)[0m  SELECT "stories".* FROM "stories" WHERE "stories"."user_id" = 1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered me/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 17ms (Views: 12.1ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/stories/new" for 127.0.0.1 at 2013-09-15 16:23:07 -0700
+Processing by StoriesController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  Rendered stories/_form.html.erb (76.6ms)
+  Rendered stories/new.html.erb within layouts/application (82.3ms)
+Completed 200 OK in 112ms (Views: 91.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/stories/new" for 127.0.0.1 at 2013-09-15 16:23:07 -0700
+Processing by StoriesController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  Rendered stories/_form.html.erb (11.8ms)
+  Rendered stories/new.html.erb within layouts/application (12.5ms)
+Completed 200 OK in 70ms (Views: 68.4ms | ActiveRecord: 0.2ms)
+  [1m[35m (0.6ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.6ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."username" = 'jeff' LIMIT 1[0m
+  [1m[35mSQL (3.2ms)[0m  INSERT INTO "users" ("avatar_content_type", "avatar_file_name", "avatar_file_size", "avatar_updated_at", "birthday", "created_at", "email", "gender", "location", "password_digest", "profile_img_url", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["avatar_content_type", nil], ["avatar_file_name", nil], ["avatar_file_size", nil], ["avatar_updated_at", nil], ["birthday", nil], ["created_at", Sun, 15 Sep 2013 23:33:33 UTC +00:00], ["email", "abc@yahoo.com"], ["gender", nil], ["location", nil], ["password_digest", "55555"], ["profile_img_url", nil], ["updated_at", Sun, 15 Sep 2013 23:33:33 UTC +00:00], ["username", "jeff"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+
+
+Started GET "/login" for 127.0.0.1 at 2013-09-15 16:33:33 -0700
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 74ms (Views: 73.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2013-09-15 16:33:33 -0700
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "username"=>"jeff", "password"=>"[FILTERED]", "commit"=>"Login"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."username" = 'jeff' AND "users"."password_digest" = '55555' LIMIT 1
+Redirected to http://www.example.com/me
+Completed 302 Found in 5ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/me" for 127.0.0.1 at 2013-09-15 16:33:33 -0700
+Processing by MeController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mStory Load (0.5ms)[0m  SELECT "stories".* FROM "stories" WHERE "stories"."user_id" = 1
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered me/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 17ms (Views: 12.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/stories/new" for 127.0.0.1 at 2013-09-15 16:33:33 -0700
+Processing by StoriesController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  Rendered stories/_form.html.erb (76.4ms)
+  Rendered stories/new.html.erb within layouts/application (82.3ms)
+Completed 200 OK in 113ms (Views: 92.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/stories/new" for 127.0.0.1 at 2013-09-15 16:33:33 -0700
+Processing by StoriesController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  Rendered stories/_form.html.erb (11.9ms)
+  Rendered stories/new.html.erb within layouts/application (12.5ms)
+Completed 200 OK in 71ms (Views: 69.1ms | ActiveRecord: 0.2ms)
+  [1m[35m (2.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."username" = 'jeff' LIMIT 1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "users" ("avatar_content_type", "avatar_file_name", "avatar_file_size", "avatar_updated_at", "birthday", "created_at", "email", "gender", "location", "password_digest", "profile_img_url", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["avatar_content_type", nil], ["avatar_file_name", nil], ["avatar_file_size", nil], ["avatar_updated_at", nil], ["birthday", nil], ["created_at", Sun, 15 Sep 2013 23:33:34 UTC +00:00], ["email", "abc@yahoo.com"], ["gender", nil], ["location", nil], ["password_digest", "55555"], ["profile_img_url", nil], ["updated_at", Sun, 15 Sep 2013 23:33:34 UTC +00:00], ["username", "jeff"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+
+
+Started GET "/login" for 127.0.0.1 at 2013-09-15 16:33:34 -0700
+Processing by SessionsController#new as HTML
+Completed 200 OK in 59ms (Views: 58.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2013-09-15 16:33:34 -0700
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "username"=>"jeff", "password"=>"[FILTERED]", "commit"=>"Login"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."username" = 'jeff' AND "users"."password_digest" = '55555' LIMIT 1
+Redirected to http://www.example.com/me
+Completed 302 Found in 2ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/me" for 127.0.0.1 at 2013-09-15 16:33:34 -0700
+Processing by MeController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mStory Load (0.1ms)[0m  SELECT "stories".* FROM "stories" WHERE "stories"."user_id" = 1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 11ms (Views: 8.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/stories/new" for 127.0.0.1 at 2013-09-15 16:33:34 -0700
+Processing by StoriesController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  Rendered stories/_form.html.erb (12.6ms)
+Completed 200 OK in 21ms (Views: 19.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/stories/new" for 127.0.0.1 at 2013-09-15 16:33:34 -0700
+Processing by StoriesController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  Rendered stories/_form.html.erb (62.6ms)
+Completed 200 OK in 71ms (Views: 69.4ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/stories" for 127.0.0.1 at 2013-09-15 16:33:34 -0700
+Processing by StoriesController#create as HTML
+  Parameters: {"utf8"=>"✓", "story"=>{"location"=>"USA", "story_date(1i)"=>"2013", "story_date(2i)"=>"9", "story_date(3i)"=>"15", "story_time(1i)"=>"2013", "story_time(2i)"=>"9", "story_time(3i)"=>"15", "story_time(4i)"=>"23", "story_time(5i)"=>"33", "story_entry"=>"", "user_id"=>"1"}, "commit"=>"Create Story"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "stories" ("created_at", "location", "story_date", "story_entry", "story_photo_url", "story_time", "travel_image_content_type", "travel_image_file_name", "travel_image_file_size", "travel_image_updated_at", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["created_at", Sun, 15 Sep 2013 23:33:34 UTC +00:00], ["location", "USA"], ["story_date", Sun, 15 Sep 2013], ["story_entry", ""], ["story_photo_url", nil], ["story_time", 2013-09-15 23:33:00 UTC], ["travel_image_content_type", nil], ["travel_image_file_name", nil], ["travel_image_file_size", nil], ["travel_image_updated_at", nil], ["updated_at", Sun, 15 Sep 2013 23:33:34 UTC +00:00], ["user_id", 1]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/stories/1
+Completed 302 Found in 8ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/stories/1" for 127.0.0.1 at 2013-09-15 16:33:34 -0700
+Processing by StoriesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mStory Load (0.1ms)[0m  [1mSELECT "stories".* FROM "stories" WHERE "stories"."id" = ? LIMIT 1[0m  [["id", "1"]]
+Completed 200 OK in 15ms (Views: 12.2ms | ActiveRecord: 0.3ms)
+  [1m[35m (0.7ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."username" = 'jeff' LIMIT 1[0m
+  [1m[35mSQL (1.9ms)[0m  INSERT INTO "users" ("avatar_content_type", "avatar_file_name", "avatar_file_size", "avatar_updated_at", "birthday", "created_at", "email", "gender", "location", "password_digest", "profile_img_url", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["avatar_content_type", nil], ["avatar_file_name", nil], ["avatar_file_size", nil], ["avatar_updated_at", nil], ["birthday", nil], ["created_at", Sun, 15 Sep 2013 23:34:00 UTC +00:00], ["email", "abc@yahoo.com"], ["gender", nil], ["location", nil], ["password_digest", "55555"], ["profile_img_url", nil], ["updated_at", Sun, 15 Sep 2013 23:34:00 UTC +00:00], ["username", "jeff"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+
+
+Started GET "/login" for 127.0.0.1 at 2013-09-15 16:34:00 -0700
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 72ms (Views: 71.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2013-09-15 16:34:00 -0700
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "username"=>"jeff", "password"=>"[FILTERED]", "commit"=>"Login"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."username" = 'jeff' AND "users"."password_digest" = '55555' LIMIT 1
+Redirected to http://www.example.com/me
+Completed 302 Found in 4ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/me" for 127.0.0.1 at 2013-09-15 16:34:00 -0700
+Processing by MeController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mStory Load (0.1ms)[0m  SELECT "stories".* FROM "stories" WHERE "stories"."user_id" = 1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered me/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 16ms (Views: 11.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/stories/new" for 127.0.0.1 at 2013-09-15 16:34:00 -0700
+Processing by StoriesController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  Rendered stories/_form.html.erb (77.5ms)
+  Rendered stories/new.html.erb within layouts/application (81.9ms)
+Completed 200 OK in 111ms (Views: 90.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/stories/new" for 127.0.0.1 at 2013-09-15 16:34:01 -0700
+Processing by StoriesController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  Rendered stories/_form.html.erb (12.2ms)
+  Rendered stories/new.html.erb within layouts/application (12.7ms)
+Completed 200 OK in 70ms (Views: 68.5ms | ActiveRecord: 0.2ms)
+  [1m[35m (0.6ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."username" = 'jeff' LIMIT 1[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "users" ("avatar_content_type", "avatar_file_name", "avatar_file_size", "avatar_updated_at", "birthday", "created_at", "email", "gender", "location", "password_digest", "profile_img_url", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["avatar_content_type", nil], ["avatar_file_name", nil], ["avatar_file_size", nil], ["avatar_updated_at", nil], ["birthday", nil], ["created_at", Sun, 15 Sep 2013 23:34:01 UTC +00:00], ["email", "abc@yahoo.com"], ["gender", nil], ["location", nil], ["password_digest", "55555"], ["profile_img_url", nil], ["updated_at", Sun, 15 Sep 2013 23:34:01 UTC +00:00], ["username", "jeff"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+
+
+Started GET "/login" for 127.0.0.1 at 2013-09-15 16:34:01 -0700
+Processing by SessionsController#new as HTML
+Completed 200 OK in 82ms (Views: 81.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2013-09-15 16:34:01 -0700
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "username"=>"jeff", "password"=>"[FILTERED]", "commit"=>"Login"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."username" = 'jeff' AND "users"."password_digest" = '55555' LIMIT 1
+Redirected to http://www.example.com/me
+Completed 302 Found in 2ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/me" for 127.0.0.1 at 2013-09-15 16:34:01 -0700
+Processing by MeController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mStory Load (0.1ms)[0m  SELECT "stories".* FROM "stories" WHERE "stories"."user_id" = 1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 11ms (Views: 8.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/stories/new" for 127.0.0.1 at 2013-09-15 16:34:01 -0700
+Processing by StoriesController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  Rendered stories/_form.html.erb (19.4ms)
+Completed 200 OK in 30ms (Views: 27.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/stories/new" for 127.0.0.1 at 2013-09-15 16:34:01 -0700
+Processing by StoriesController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  Rendered stories/_form.html.erb (81.4ms)
+Completed 200 OK in 91ms (Views: 89.6ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/stories" for 127.0.0.1 at 2013-09-15 16:34:01 -0700
+Processing by StoriesController#create as HTML
+  Parameters: {"utf8"=>"✓", "story"=>{"location"=>"USA", "story_date(1i)"=>"2013", "story_date(2i)"=>"9", "story_date(3i)"=>"15", "story_time(1i)"=>"2013", "story_time(2i)"=>"9", "story_time(3i)"=>"15", "story_time(4i)"=>"23", "story_time(5i)"=>"34", "story_entry"=>"", "user_id"=>"1"}, "commit"=>"Create Story"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (1.2ms)[0m  INSERT INTO "stories" ("created_at", "location", "story_date", "story_entry", "story_photo_url", "story_time", "travel_image_content_type", "travel_image_file_name", "travel_image_file_size", "travel_image_updated_at", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["created_at", Sun, 15 Sep 2013 23:34:01 UTC +00:00], ["location", "USA"], ["story_date", Sun, 15 Sep 2013], ["story_entry", ""], ["story_photo_url", nil], ["story_time", 2013-09-15 23:34:00 UTC], ["travel_image_content_type", nil], ["travel_image_file_name", nil], ["travel_image_file_size", nil], ["travel_image_updated_at", nil], ["updated_at", Sun, 15 Sep 2013 23:34:01 UTC +00:00], ["user_id", 1]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/stories/1
+Completed 302 Found in 9ms (ActiveRecord: 1.5ms)
+
+
+Started GET "/stories/1" for 127.0.0.1 at 2013-09-15 16:34:01 -0700
+Processing by StoriesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mStory Load (0.1ms)[0m  [1mSELECT "stories".* FROM "stories" WHERE "stories"."id" = ? LIMIT 1[0m  [["id", "1"]]
+Completed 200 OK in 14ms (Views: 11.5ms | ActiveRecord: 0.3ms)
+  [1m[35m (0.6ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."username" = 'jeff' LIMIT 1[0m
+  [1m[35mSQL (2.5ms)[0m  INSERT INTO "users" ("avatar_content_type", "avatar_file_name", "avatar_file_size", "avatar_updated_at", "birthday", "created_at", "email", "gender", "location", "password_digest", "profile_img_url", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["avatar_content_type", nil], ["avatar_file_name", nil], ["avatar_file_size", nil], ["avatar_updated_at", nil], ["birthday", nil], ["created_at", Sun, 15 Sep 2013 23:36:07 UTC +00:00], ["email", "abc@yahoo.com"], ["gender", nil], ["location", nil], ["password_digest", "55555"], ["profile_img_url", nil], ["updated_at", Sun, 15 Sep 2013 23:36:07 UTC +00:00], ["username", "jeff"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+
+
+Started GET "/login" for 127.0.0.1 at 2013-09-15 16:36:07 -0700
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 70ms (Views: 69.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2013-09-15 16:36:07 -0700
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "username"=>"jeff", "password"=>"[FILTERED]", "commit"=>"Login"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."username" = 'jeff' AND "users"."password_digest" = '55555' LIMIT 1
+Redirected to http://www.example.com/me
+Completed 302 Found in 4ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/me" for 127.0.0.1 at 2013-09-15 16:36:07 -0700
+Processing by MeController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mStory Load (0.1ms)[0m  SELECT "stories".* FROM "stories" WHERE "stories"."user_id" = 1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered me/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 16ms (Views: 11.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/stories/new" for 127.0.0.1 at 2013-09-15 16:36:07 -0700
+Processing by StoriesController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  Rendered stories/_form.html.erb (73.0ms)
+  Rendered stories/new.html.erb within layouts/application (77.4ms)
+Completed 200 OK in 107ms (Views: 85.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/stories/new" for 127.0.0.1 at 2013-09-15 16:36:07 -0700
+Processing by StoriesController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  Rendered stories/_form.html.erb (11.9ms)
+  Rendered stories/new.html.erb within layouts/application (12.4ms)
+Completed 200 OK in 70ms (Views: 68.0ms | ActiveRecord: 0.2ms)
+  [1m[35m (2.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."username" = 'jeff' LIMIT 1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "users" ("avatar_content_type", "avatar_file_name", "avatar_file_size", "avatar_updated_at", "birthday", "created_at", "email", "gender", "location", "password_digest", "profile_img_url", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["avatar_content_type", nil], ["avatar_file_name", nil], ["avatar_file_size", nil], ["avatar_updated_at", nil], ["birthday", nil], ["created_at", Sun, 15 Sep 2013 23:36:08 UTC +00:00], ["email", "abc@yahoo.com"], ["gender", nil], ["location", nil], ["password_digest", "55555"], ["profile_img_url", nil], ["updated_at", Sun, 15 Sep 2013 23:36:08 UTC +00:00], ["username", "jeff"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+
+
+Started GET "/login" for 127.0.0.1 at 2013-09-15 16:36:08 -0700
+Processing by SessionsController#new as HTML
+Completed 200 OK in 60ms (Views: 59.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2013-09-15 16:36:08 -0700
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "username"=>"jeff", "password"=>"[FILTERED]", "commit"=>"Login"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."username" = 'jeff' AND "users"."password_digest" = '55555' LIMIT 1
+Redirected to http://www.example.com/me
+Completed 302 Found in 2ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/me" for 127.0.0.1 at 2013-09-15 16:36:08 -0700
+Processing by MeController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mStory Load (0.1ms)[0m  SELECT "stories".* FROM "stories" WHERE "stories"."user_id" = 1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 10ms (Views: 7.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/stories/new" for 127.0.0.1 at 2013-09-15 16:36:08 -0700
+Processing by StoriesController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  Rendered stories/_form.html.erb (11.9ms)
+Completed 200 OK in 20ms (Views: 18.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/stories/new" for 127.0.0.1 at 2013-09-15 16:36:08 -0700
+Processing by StoriesController#new as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  Rendered stories/_form.html.erb (62.6ms)
+Completed 200 OK in 71ms (Views: 69.4ms | ActiveRecord: 0.1ms)
+
+
+Started POST "/stories" for 127.0.0.1 at 2013-09-15 16:36:08 -0700
+Processing by StoriesController#create as HTML
+  Parameters: {"utf8"=>"✓", "story"=>{"location"=>"USA", "story_date(1i)"=>"2013", "story_date(2i)"=>"9", "story_date(3i)"=>"15", "story_time(1i)"=>"2013", "story_time(2i)"=>"9", "story_time(3i)"=>"15", "story_time(4i)"=>"23", "story_time(5i)"=>"36", "story_entry"=>"", "user_id"=>"1"}, "commit"=>"Create Story"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "stories" ("created_at", "location", "story_date", "story_entry", "story_photo_url", "story_time", "travel_image_content_type", "travel_image_file_name", "travel_image_file_size", "travel_image_updated_at", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["created_at", Sun, 15 Sep 2013 23:36:08 UTC +00:00], ["location", "USA"], ["story_date", Sun, 15 Sep 2013], ["story_entry", ""], ["story_photo_url", nil], ["story_time", 2013-09-15 23:36:00 UTC], ["travel_image_content_type", nil], ["travel_image_file_name", nil], ["travel_image_file_size", nil], ["travel_image_updated_at", nil], ["updated_at", Sun, 15 Sep 2013 23:36:08 UTC +00:00], ["user_id", 1]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/stories/1
+Completed 302 Found in 8ms (ActiveRecord: 1.1ms)
+
+
+Started GET "/stories/1" for 127.0.0.1 at 2013-09-15 16:36:08 -0700
+Processing by StoriesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mStory Load (0.1ms)[0m  [1mSELECT "stories".* FROM "stories" WHERE "stories"."id" = ? LIMIT 1[0m  [["id", "1"]]
+Completed 200 OK in 13ms (Views: 10.2ms | ActiveRecord: 0.3ms)
+  [1m[35mStory Load (0.2ms)[0m  SELECT "stories".* FROM "stories" WHERE "stories"."user_id" = 1 LIMIT 1
+  [1m[36m (2.1ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+
+
+Started GET "/stories/new" for 127.0.0.1 at 2013-09-15 16:53:39 -0700
+Processing by StoriesController#new as HTML
+  [1m[35mUser Load (0.6ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+Redirected to http://www.example.com/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 10ms (ActiveRecord: 2.5ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2013-09-15 16:53:39 -0700
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 24ms (Views: 23.9ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+
+
+Started GET "/stories/new" for 127.0.0.1 at 2013-09-15 16:55:52 -0700
+Processing by StoriesController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+Redirected to http://www.example.com/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 8ms (ActiveRecord: 1.5ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2013-09-15 16:55:52 -0700
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 22ms (Views: 21.5ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."username" = 'jeff' LIMIT 1
+  [1m[36mSQL (3.0ms)[0m  [1mINSERT INTO "users" ("avatar_content_type", "avatar_file_name", "avatar_file_size", "avatar_updated_at", "birthday", "created_at", "email", "gender", "location", "password_digest", "profile_img_url", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["avatar_content_type", nil], ["avatar_file_name", nil], ["avatar_file_size", nil], ["avatar_updated_at", nil], ["birthday", nil], ["created_at", Sun, 15 Sep 2013 23:55:52 UTC +00:00], ["email", "abc@yahoo.com"], ["gender", nil], ["location", nil], ["password_digest", "55555"], ["profile_img_url", nil], ["updated_at", Sun, 15 Sep 2013 23:55:52 UTC +00:00], ["username", "jeff"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+
+
+Started GET "/login" for 127.0.0.1 at 2013-09-15 16:55:52 -0700
+Processing by SessionsController#new as HTML
+Completed 200 OK in 8ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2013-09-15 16:55:52 -0700
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "username"=>"jeff", "password"=>"[FILTERED]", "commit"=>"Login"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."username" = 'jeff' AND "users"."password_digest" = '55555' LIMIT 1[0m
+Redirected to http://test.host/me
+Completed 302 Found in 3ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/me" for 127.0.0.1 at 2013-09-15 16:55:52 -0700
+Processing by MeController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mStory Load (0.6ms)[0m  [1mSELECT "stories".* FROM "stories" WHERE "stories"."user_id" = 1[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 17ms (Views: 12.0ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/stories/new" for 127.0.0.1 at 2013-09-15 16:55:52 -0700
+Processing by StoriesController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+Redirected to http://www.example.com/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2013-09-15 16:55:52 -0700
+Processing by SessionsController#new as HTML
+Completed 200 OK in 8ms (Views: 7.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.6ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."username" = 'jeff' LIMIT 1[0m
+  [1m[35mSQL (1.9ms)[0m  INSERT INTO "users" ("avatar_content_type", "avatar_file_name", "avatar_file_size", "avatar_updated_at", "birthday", "created_at", "email", "gender", "location", "password_digest", "profile_img_url", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["avatar_content_type", nil], ["avatar_file_name", nil], ["avatar_file_size", nil], ["avatar_updated_at", nil], ["birthday", nil], ["created_at", Mon, 16 Sep 2013 00:00:15 UTC +00:00], ["email", "abc@yahoo.com"], ["gender", nil], ["location", nil], ["password_digest", "55555"], ["profile_img_url", nil], ["updated_at", Mon, 16 Sep 2013 00:00:15 UTC +00:00], ["username", "jeff"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+
+
+Started GET "/login" for 127.0.0.1 at 2013-09-15 17:00:15 -0700
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 70ms (Views: 69.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2013-09-15 17:00:15 -0700
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "username"=>"jeff", "password"=>"[FILTERED]", "commit"=>"Login"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."username" = 'jeff' AND "users"."password_digest" = '55555' LIMIT 1
+Redirected to http://test.host/me
+Completed 302 Found in 4ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/me" for 127.0.0.1 at 2013-09-15 17:00:15 -0700
+Processing by MeController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mStory Load (0.1ms)[0m  SELECT "stories".* FROM "stories" WHERE "stories"."user_id" = 1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered me/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 16ms (Views: 11.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/stories/new" for 127.0.0.1 at 2013-09-15 17:00:15 -0700
+Processing by StoriesController#new as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+Redirected to http://www.example.com/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.1ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2013-09-15 17:00:15 -0700
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 8ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+  [1m[36m (1.9ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."username" = 'jeff' LIMIT 1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "users" ("avatar_content_type", "avatar_file_name", "avatar_file_size", "avatar_updated_at", "birthday", "created_at", "email", "gender", "location", "password_digest", "profile_img_url", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["avatar_content_type", nil], ["avatar_file_name", nil], ["avatar_file_size", nil], ["avatar_updated_at", nil], ["birthday", nil], ["created_at", Mon, 16 Sep 2013 00:00:15 UTC +00:00], ["email", "abc@yahoo.com"], ["gender", nil], ["location", nil], ["password_digest", "55555"], ["profile_img_url", nil], ["updated_at", Mon, 16 Sep 2013 00:00:15 UTC +00:00], ["username", "jeff"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+
+
+Started GET "/login" for 127.0.0.1 at 2013-09-15 17:00:15 -0700
+Processing by SessionsController#new as HTML
+Completed 200 OK in 8ms (Views: 8.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2013-09-15 17:00:15 -0700
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "username"=>"jeff", "password"=>"[FILTERED]", "commit"=>"Login"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."username" = 'jeff' AND "users"."password_digest" = '55555' LIMIT 1[0m
+Redirected to http://test.host/me
+Completed 302 Found in 2ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/me" for 127.0.0.1 at 2013-09-15 17:00:15 -0700
+Processing by MeController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mStory Load (0.1ms)[0m  [1mSELECT "stories".* FROM "stories" WHERE "stories"."user_id" = 1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 11ms (Views: 8.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/stories/new" for 127.0.0.1 at 2013-09-15 17:00:15 -0700
+Processing by StoriesController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+Redirected to http://www.example.com/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2013-09-15 17:00:15 -0700
+Processing by SessionsController#new as HTML
+Completed 200 OK in 60ms (Views: 9.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (2.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+
+
+Started GET "/stories/new" for 127.0.0.1 at 2013-09-15 17:00:15 -0700
+Processing by StoriesController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+Redirected to http://www.example.com/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2013-09-15 17:00:15 -0700
+Processing by SessionsController#new as HTML
+Completed 200 OK in 8ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+
+
+Started GET "/stories/new" for 127.0.0.1 at 2013-09-15 17:05:07 -0700
+Processing by StoriesController#new as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+Redirected to http://www.example.com/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 8ms (ActiveRecord: 1.5ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2013-09-15 17:05:07 -0700
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 22ms (Views: 21.2ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."username" = 'jeff' LIMIT 1
+  [1m[36mSQL (1.9ms)[0m  [1mINSERT INTO "users" ("avatar_content_type", "avatar_file_name", "avatar_file_size", "avatar_updated_at", "birthday", "created_at", "email", "gender", "location", "password_digest", "profile_img_url", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["avatar_content_type", nil], ["avatar_file_name", nil], ["avatar_file_size", nil], ["avatar_updated_at", nil], ["birthday", nil], ["created_at", Mon, 16 Sep 2013 00:05:07 UTC +00:00], ["email", "abc@yahoo.com"], ["gender", nil], ["location", nil], ["password_digest", "55555"], ["profile_img_url", nil], ["updated_at", Mon, 16 Sep 2013 00:05:07 UTC +00:00], ["username", "jeff"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+
+
+Started GET "/login" for 127.0.0.1 at 2013-09-15 17:05:07 -0700
+Processing by SessionsController#new as HTML
+Completed 200 OK in 8ms (Views: 7.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2013-09-15 17:05:07 -0700
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "username"=>"jeff", "password"=>"[FILTERED]", "commit"=>"Login"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."username" = 'jeff' AND "users"."password_digest" = '55555' LIMIT 1[0m
+Redirected to http://test.host/me
+Completed 302 Found in 3ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/me" for 127.0.0.1 at 2013-09-15 17:05:07 -0700
+Processing by MeController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mStory Load (0.1ms)[0m  [1mSELECT "stories".* FROM "stories" WHERE "stories"."user_id" = 1[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 16ms (Views: 11.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/stories/new" for 127.0.0.1 at 2013-09-15 17:05:07 -0700
+Processing by StoriesController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+Redirected to http://www.example.com/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2013-09-15 17:05:07 -0700
+Processing by SessionsController#new as HTML
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (1.9ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."username" = 'jeff' LIMIT 1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "users" ("avatar_content_type", "avatar_file_name", "avatar_file_size", "avatar_updated_at", "birthday", "created_at", "email", "gender", "location", "password_digest", "profile_img_url", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["avatar_content_type", nil], ["avatar_file_name", nil], ["avatar_file_size", nil], ["avatar_updated_at", nil], ["birthday", nil], ["created_at", Mon, 16 Sep 2013 00:05:07 UTC +00:00], ["email", "abc@yahoo.com"], ["gender", nil], ["location", nil], ["password_digest", "55555"], ["profile_img_url", nil], ["updated_at", Mon, 16 Sep 2013 00:05:07 UTC +00:00], ["username", "jeff"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+
+
+Started GET "/login" for 127.0.0.1 at 2013-09-15 17:05:07 -0700
+Processing by SessionsController#new as HTML
+Completed 200 OK in 8ms (Views: 7.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2013-09-15 17:05:07 -0700
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "username"=>"jeff", "password"=>"[FILTERED]", "commit"=>"Login"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."username" = 'jeff' AND "users"."password_digest" = '55555' LIMIT 1
+Redirected to http://test.host/me
+Completed 302 Found in 2ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/me" for 127.0.0.1 at 2013-09-15 17:05:07 -0700
+Processing by MeController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mStory Load (0.1ms)[0m  SELECT "stories".* FROM "stories" WHERE "stories"."user_id" = 1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 10ms (Views: 7.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/stories/new" for 127.0.0.1 at 2013-09-15 17:05:07 -0700
+Processing by StoriesController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+Redirected to http://www.example.com/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2013-09-15 17:05:07 -0700
+Processing by SessionsController#new as HTML
+Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.6ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."username" = 'jeff' LIMIT 1[0m
+  [1m[35mSQL (1.8ms)[0m  INSERT INTO "users" ("avatar_content_type", "avatar_file_name", "avatar_file_size", "avatar_updated_at", "birthday", "created_at", "email", "gender", "location", "password_digest", "profile_img_url", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["avatar_content_type", nil], ["avatar_file_name", nil], ["avatar_file_size", nil], ["avatar_updated_at", nil], ["birthday", nil], ["created_at", Mon, 16 Sep 2013 00:06:45 UTC +00:00], ["email", "abc@yahoo.com"], ["gender", nil], ["location", nil], ["password_digest", "55555"], ["profile_img_url", nil], ["updated_at", Mon, 16 Sep 2013 00:06:45 UTC +00:00], ["username", "jeff"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+
+
+Started GET "/login" for 127.0.0.1 at 2013-09-15 17:06:45 -0700
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 70ms (Views: 69.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2013-09-15 17:06:45 -0700
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "username"=>"jeff", "password"=>"[FILTERED]", "commit"=>"Login"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."username" = 'jeff' AND "users"."password_digest" = '55555' LIMIT 1
+Redirected to http://www.example.com/me
+Completed 302 Found in 4ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/me" for 127.0.0.1 at 2013-09-15 17:06:45 -0700
+Processing by MeController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mStory Load (0.1ms)[0m  SELECT "stories".* FROM "stories" WHERE "stories"."user_id" = 1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered me/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 16ms (Views: 11.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/stories/new" for 127.0.0.1 at 2013-09-15 17:06:45 -0700
+Processing by StoriesController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  Rendered stories/_form.html.erb (76.0ms)
+  Rendered stories/new.html.erb within layouts/application (82.7ms)
+Completed 200 OK in 112ms (Views: 90.9ms | ActiveRecord: 0.2ms)
+  [1m[36m (2.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."username" = 'jeff' LIMIT 1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "users" ("avatar_content_type", "avatar_file_name", "avatar_file_size", "avatar_updated_at", "birthday", "created_at", "email", "gender", "location", "password_digest", "profile_img_url", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["avatar_content_type", nil], ["avatar_file_name", nil], ["avatar_file_size", nil], ["avatar_updated_at", nil], ["birthday", nil], ["created_at", Mon, 16 Sep 2013 00:06:45 UTC +00:00], ["email", "abc@yahoo.com"], ["gender", nil], ["location", nil], ["password_digest", "55555"], ["profile_img_url", nil], ["updated_at", Mon, 16 Sep 2013 00:06:45 UTC +00:00], ["username", "jeff"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+
+
+Started GET "/login" for 127.0.0.1 at 2013-09-15 17:06:45 -0700
+Processing by SessionsController#new as HTML
+Completed 200 OK in 8ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2013-09-15 17:06:45 -0700
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "username"=>"jeff", "password"=>"[FILTERED]", "commit"=>"Login"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."username" = 'jeff' AND "users"."password_digest" = '55555' LIMIT 1[0m
+Redirected to http://www.example.com/me
+Completed 302 Found in 2ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/me" for 127.0.0.1 at 2013-09-15 17:06:45 -0700
+Processing by MeController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mStory Load (0.1ms)[0m  [1mSELECT "stories".* FROM "stories" WHERE "stories"."user_id" = 1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 10ms (Views: 8.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/stories/new" for 127.0.0.1 at 2013-09-15 17:06:45 -0700
+Processing by StoriesController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  Rendered stories/_form.html.erb (64.6ms)
+Completed 200 OK in 73ms (Views: 71.7ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/stories" for 127.0.0.1 at 2013-09-15 17:06:45 -0700
+Processing by StoriesController#create as HTML
+  Parameters: {"utf8"=>"✓", "story"=>{"location"=>"USA", "story_date(1i)"=>"2013", "story_date(2i)"=>"9", "story_date(3i)"=>"16", "story_time(1i)"=>"2013", "story_time(2i)"=>"9", "story_time(3i)"=>"16", "story_time(4i)"=>"00", "story_time(5i)"=>"06", "story_entry"=>"", "user_id"=>"1"}, "commit"=>"Create Story"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "stories" ("created_at", "location", "story_date", "story_entry", "story_photo_url", "story_time", "travel_image_content_type", "travel_image_file_name", "travel_image_file_size", "travel_image_updated_at", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["created_at", Mon, 16 Sep 2013 00:06:45 UTC +00:00], ["location", "USA"], ["story_date", Mon, 16 Sep 2013], ["story_entry", ""], ["story_photo_url", nil], ["story_time", 2013-09-16 00:06:00 UTC], ["travel_image_content_type", nil], ["travel_image_file_name", nil], ["travel_image_file_size", nil], ["travel_image_updated_at", nil], ["updated_at", Mon, 16 Sep 2013 00:06:45 UTC +00:00], ["user_id", 1]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/stories/1
+Completed 302 Found in 8ms (ActiveRecord: 1.1ms)
+
+
+Started GET "/stories/1" for 127.0.0.1 at 2013-09-15 17:06:45 -0700
+Processing by StoriesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mStory Load (0.1ms)[0m  [1mSELECT "stories".* FROM "stories" WHERE "stories"."id" = ? LIMIT 1[0m  [["id", "1"]]
+Completed 200 OK in 13ms (Views: 10.2ms | ActiveRecord: 0.3ms)
+  [1m[35mStory Load (0.2ms)[0m  SELECT "stories".* FROM "stories" WHERE "stories"."user_id" = 1 LIMIT 1
+  [1m[36m (1.9ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."username" = 'jeff' LIMIT 1[0m
+  [1m[35mSQL (1.9ms)[0m  INSERT INTO "users" ("avatar_content_type", "avatar_file_name", "avatar_file_size", "avatar_updated_at", "birthday", "created_at", "email", "gender", "location", "password_digest", "profile_img_url", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["avatar_content_type", nil], ["avatar_file_name", nil], ["avatar_file_size", nil], ["avatar_updated_at", nil], ["birthday", nil], ["created_at", Mon, 16 Sep 2013 00:07:35 UTC +00:00], ["email", "abc@yahoo.com"], ["gender", nil], ["location", nil], ["password_digest", "55555"], ["profile_img_url", nil], ["updated_at", Mon, 16 Sep 2013 00:07:35 UTC +00:00], ["username", "jeff"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+
+
+Started GET "/login" for 127.0.0.1 at 2013-09-15 17:07:35 -0700
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 72ms (Views: 71.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2013-09-15 17:07:36 -0700
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "username"=>"jeff", "password"=>"[FILTERED]", "commit"=>"Login"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."username" = 'jeff' AND "users"."password_digest" = '55555' LIMIT 1
+Redirected to http://test.host/me
+Completed 302 Found in 5ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/me" for 127.0.0.1 at 2013-09-15 17:07:36 -0700
+Processing by MeController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mStory Load (0.1ms)[0m  SELECT "stories".* FROM "stories" WHERE "stories"."user_id" = 1
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered me/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 17ms (Views: 11.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/stories/new" for 127.0.0.1 at 2013-09-15 17:07:36 -0700
+Processing by StoriesController#new as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+Redirected to http://www.example.com/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.1ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2013-09-15 17:07:36 -0700
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 8ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+  [1m[36m (3.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."username" = 'jeff' LIMIT 1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "users" ("avatar_content_type", "avatar_file_name", "avatar_file_size", "avatar_updated_at", "birthday", "created_at", "email", "gender", "location", "password_digest", "profile_img_url", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["avatar_content_type", nil], ["avatar_file_name", nil], ["avatar_file_size", nil], ["avatar_updated_at", nil], ["birthday", nil], ["created_at", Mon, 16 Sep 2013 00:07:36 UTC +00:00], ["email", "abc@yahoo.com"], ["gender", nil], ["location", nil], ["password_digest", "55555"], ["profile_img_url", nil], ["updated_at", Mon, 16 Sep 2013 00:07:36 UTC +00:00], ["username", "jeff"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+
+
+Started GET "/login" for 127.0.0.1 at 2013-09-15 17:07:36 -0700
+Processing by SessionsController#new as HTML
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2013-09-15 17:07:36 -0700
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "username"=>"jeff", "password"=>"[FILTERED]", "commit"=>"Login"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."username" = 'jeff' AND "users"."password_digest" = '55555' LIMIT 1[0m
+Redirected to http://test.host/me
+Completed 302 Found in 2ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/me" for 127.0.0.1 at 2013-09-15 17:07:36 -0700
+Processing by MeController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mStory Load (0.1ms)[0m  [1mSELECT "stories".* FROM "stories" WHERE "stories"."user_id" = 1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 10ms (Views: 8.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/stories/new" for 127.0.0.1 at 2013-09-15 17:07:36 -0700
+Processing by StoriesController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+Redirected to http://www.example.com/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2013-09-15 17:07:36 -0700
+Processing by SessionsController#new as HTML
+Completed 200 OK in 61ms (Views: 7.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (2.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+
+
+Started GET "/stories/new" for 127.0.0.1 at 2013-09-15 17:07:36 -0700
+Processing by StoriesController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+Redirected to http://www.example.com/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2013-09-15 17:07:36 -0700
+Processing by SessionsController#new as HTML
+Completed 200 OK in 8ms (Views: 7.8ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."username" = 'jeff' LIMIT 1[0m
+  [1m[35mSQL (1.9ms)[0m  INSERT INTO "users" ("avatar_content_type", "avatar_file_name", "avatar_file_size", "avatar_updated_at", "birthday", "created_at", "email", "gender", "location", "password_digest", "profile_img_url", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["avatar_content_type", nil], ["avatar_file_name", nil], ["avatar_file_size", nil], ["avatar_updated_at", nil], ["birthday", nil], ["created_at", Mon, 16 Sep 2013 00:08:04 UTC +00:00], ["email", "abc@yahoo.com"], ["gender", nil], ["location", nil], ["password_digest", "55555"], ["profile_img_url", nil], ["updated_at", Mon, 16 Sep 2013 00:08:04 UTC +00:00], ["username", "jeff"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+
+
+Started GET "/login" for 127.0.0.1 at 2013-09-15 17:08:04 -0700
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 71ms (Views: 70.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2013-09-15 17:08:04 -0700
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "username"=>"jeff", "password"=>"[FILTERED]", "commit"=>"Login"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."username" = 'jeff' AND "users"."password_digest" = '55555' LIMIT 1
+Redirected to http://test.host/me
+Completed 302 Found in 5ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/me" for 127.0.0.1 at 2013-09-15 17:08:04 -0700
+Processing by MeController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mStory Load (0.1ms)[0m  SELECT "stories".* FROM "stories" WHERE "stories"."user_id" = 1
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered me/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 17ms (Views: 11.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/stories/new" for 127.0.0.1 at 2013-09-15 17:08:04 -0700
+Processing by StoriesController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+Redirected to http://www.example.com/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2013-09-15 17:08:04 -0700
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 8ms (Views: 7.8ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.5ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."username" = 'jeff' LIMIT 1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "users" ("avatar_content_type", "avatar_file_name", "avatar_file_size", "avatar_updated_at", "birthday", "created_at", "email", "gender", "location", "password_digest", "profile_img_url", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["avatar_content_type", nil], ["avatar_file_name", nil], ["avatar_file_size", nil], ["avatar_updated_at", nil], ["birthday", nil], ["created_at", Mon, 16 Sep 2013 00:08:04 UTC +00:00], ["email", "abc@yahoo.com"], ["gender", nil], ["location", nil], ["password_digest", "55555"], ["profile_img_url", nil], ["updated_at", Mon, 16 Sep 2013 00:08:04 UTC +00:00], ["username", "jeff"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+
+
+Started GET "/login" for 127.0.0.1 at 2013-09-15 17:08:04 -0700
+Processing by SessionsController#new as HTML
+Completed 200 OK in 8ms (Views: 8.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2013-09-15 17:08:04 -0700
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "username"=>"jeff", "password"=>"[FILTERED]", "commit"=>"Login"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."username" = 'jeff' AND "users"."password_digest" = '55555' LIMIT 1[0m
+Redirected to http://test.host/me
+Completed 302 Found in 2ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/me" for 127.0.0.1 at 2013-09-15 17:08:04 -0700
+Processing by MeController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mStory Load (0.1ms)[0m  [1mSELECT "stories".* FROM "stories" WHERE "stories"."user_id" = 1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 11ms (Views: 8.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/stories/new" for 127.0.0.1 at 2013-09-15 17:08:04 -0700
+Processing by StoriesController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+Redirected to http://www.example.com/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2013-09-15 17:08:04 -0700
+Processing by SessionsController#new as HTML
+Completed 200 OK in 62ms (Views: 61.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (2.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+
+
+Started GET "/stories/new" for 127.0.0.1 at 2013-09-15 17:08:04 -0700
+Processing by StoriesController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+Redirected to http://www.example.com/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2013-09-15 17:08:04 -0700
+Processing by SessionsController#new as HTML
+Completed 200 OK in 8ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."username" = 'jeff' LIMIT 1[0m
+  [1m[35mSQL (1.9ms)[0m  INSERT INTO "users" ("avatar_content_type", "avatar_file_name", "avatar_file_size", "avatar_updated_at", "birthday", "created_at", "email", "gender", "location", "password_digest", "profile_img_url", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["avatar_content_type", nil], ["avatar_file_name", nil], ["avatar_file_size", nil], ["avatar_updated_at", nil], ["birthday", nil], ["created_at", Mon, 16 Sep 2013 00:08:27 UTC +00:00], ["email", "abc@yahoo.com"], ["gender", nil], ["location", nil], ["password_digest", "55555"], ["profile_img_url", nil], ["updated_at", Mon, 16 Sep 2013 00:08:27 UTC +00:00], ["username", "jeff"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+
+
+Started GET "/login" for 127.0.0.1 at 2013-09-15 17:08:27 -0700
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 70ms (Views: 69.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2013-09-15 17:08:27 -0700
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "username"=>"jeff", "password"=>"[FILTERED]", "commit"=>"Login"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."username" = 'jeff' AND "users"."password_digest" = '55555' LIMIT 1
+Redirected to http://test.host/me
+Completed 302 Found in 4ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/me" for 127.0.0.1 at 2013-09-15 17:08:27 -0700
+Processing by MeController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mStory Load (0.1ms)[0m  SELECT "stories".* FROM "stories" WHERE "stories"."user_id" = 1
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered me/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 16ms (Views: 11.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/stories/new" for 127.0.0.1 at 2013-09-15 17:08:27 -0700
+Processing by StoriesController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+Redirected to http://www.example.com/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2013-09-15 17:08:27 -0700
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 8ms (Views: 7.8ms | ActiveRecord: 0.0ms)
+  [1m[36m (3.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."username" = 'jeff' LIMIT 1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "users" ("avatar_content_type", "avatar_file_name", "avatar_file_size", "avatar_updated_at", "birthday", "created_at", "email", "gender", "location", "password_digest", "profile_img_url", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["avatar_content_type", nil], ["avatar_file_name", nil], ["avatar_file_size", nil], ["avatar_updated_at", nil], ["birthday", nil], ["created_at", Mon, 16 Sep 2013 00:08:27 UTC +00:00], ["email", "abc@yahoo.com"], ["gender", nil], ["location", nil], ["password_digest", "55555"], ["profile_img_url", nil], ["updated_at", Mon, 16 Sep 2013 00:08:27 UTC +00:00], ["username", "jeff"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+
+
+Started GET "/login" for 127.0.0.1 at 2013-09-15 17:08:27 -0700
+Processing by SessionsController#new as HTML
+Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2013-09-15 17:08:27 -0700
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "username"=>"jeff", "password"=>"[FILTERED]", "commit"=>"Login"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."username" = 'jeff' AND "users"."password_digest" = '55555' LIMIT 1[0m
+Redirected to http://test.host/me
+Completed 302 Found in 2ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/me" for 127.0.0.1 at 2013-09-15 17:08:27 -0700
+Processing by MeController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mStory Load (0.1ms)[0m  [1mSELECT "stories".* FROM "stories" WHERE "stories"."user_id" = 1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 11ms (Views: 8.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/stories/new" for 127.0.0.1 at 2013-09-15 17:08:27 -0700
+Processing by StoriesController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+Redirected to http://www.example.com/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2013-09-15 17:08:27 -0700
+Processing by SessionsController#new as HTML
+Completed 200 OK in 61ms (Views: 7.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (2.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+
+
+Started GET "/stories/new" for 127.0.0.1 at 2013-09-15 17:08:27 -0700
+Processing by StoriesController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+Redirected to http://www.example.com/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2013-09-15 17:08:27 -0700
+Processing by SessionsController#new as HTML
+Completed 200 OK in 8ms (Views: 8.1ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+
+
+Started GET "/stories/new" for 127.0.0.1 at 2013-09-15 17:18:46 -0700
+Processing by StoriesController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+Redirected to http://www.example.com/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 8ms (ActiveRecord: 1.5ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2013-09-15 17:18:46 -0700
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 22ms (Views: 21.7ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."username" = 'jeff' LIMIT 1
+  [1m[36mSQL (1.8ms)[0m  [1mINSERT INTO "users" ("avatar_content_type", "avatar_file_name", "avatar_file_size", "avatar_updated_at", "birthday", "created_at", "email", "gender", "location", "password_digest", "profile_img_url", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["avatar_content_type", nil], ["avatar_file_name", nil], ["avatar_file_size", nil], ["avatar_updated_at", nil], ["birthday", nil], ["created_at", Mon, 16 Sep 2013 00:18:46 UTC +00:00], ["email", "abc@yahoo.com"], ["gender", nil], ["location", nil], ["password_digest", "55555"], ["profile_img_url", nil], ["updated_at", Mon, 16 Sep 2013 00:18:46 UTC +00:00], ["username", "jeff"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (2.0ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+
+
+Started GET "/stories/new" for 127.0.0.1 at 2013-09-15 17:19:19 -0700
+Processing by StoriesController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+Redirected to http://www.example.com/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 8ms (ActiveRecord: 1.5ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2013-09-15 17:19:19 -0700
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 22ms (Views: 21.4ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."username" = 'jeff' LIMIT 1
+  [1m[36mSQL (1.8ms)[0m  [1mINSERT INTO "users" ("avatar_content_type", "avatar_file_name", "avatar_file_size", "avatar_updated_at", "birthday", "created_at", "email", "gender", "location", "password_digest", "profile_img_url", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["avatar_content_type", nil], ["avatar_file_name", nil], ["avatar_file_size", nil], ["avatar_updated_at", nil], ["birthday", nil], ["created_at", Mon, 16 Sep 2013 00:19:19 UTC +00:00], ["email", "abc@yahoo.com"], ["gender", nil], ["location", nil], ["password_digest", "55555"], ["profile_img_url", nil], ["updated_at", Mon, 16 Sep 2013 00:19:19 UTC +00:00], ["username", "jeff"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+
+
+Started GET "/stories/new" for 127.0.0.1 at 2013-09-15 17:19:19 -0700
+Processing by StoriesController#new as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+Redirected to http://www.example.com/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.1ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2013-09-15 17:19:19 -0700
+Processing by SessionsController#new as HTML
+Completed 200 OK in 9ms (Views: 8.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (2.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+
+
+Started GET "/stories/new" for 127.0.0.1 at 2013-09-15 17:21:03 -0700
+Processing by StoriesController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+Redirected to http://www.example.com/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 8ms (ActiveRecord: 1.5ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2013-09-15 17:21:03 -0700
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 22ms (Views: 21.2ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."username" = 'jeff' LIMIT 1
+  [1m[36mSQL (1.9ms)[0m  [1mINSERT INTO "users" ("avatar_content_type", "avatar_file_name", "avatar_file_size", "avatar_updated_at", "birthday", "created_at", "email", "gender", "location", "password_digest", "profile_img_url", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["avatar_content_type", nil], ["avatar_file_name", nil], ["avatar_file_size", nil], ["avatar_updated_at", nil], ["birthday", nil], ["created_at", Mon, 16 Sep 2013 00:21:03 UTC +00:00], ["email", "abc@yahoo.com"], ["gender", nil], ["location", nil], ["password_digest", "55555"], ["profile_img_url", nil], ["updated_at", Mon, 16 Sep 2013 00:21:03 UTC +00:00], ["username", "jeff"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by StoriesController#new as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+Completed 200 OK in 27ms (Views: 2.5ms | ActiveRecord: 0.7ms)
+  [1m[35m (0.5ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+Processing by StoriesController#new as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+Redirected to http://test.host/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 8ms (ActiveRecord: 1.5ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."username" = 'jeff' LIMIT 1
+  [1m[36mSQL (51.4ms)[0m  [1mINSERT INTO "users" ("avatar_content_type", "avatar_file_name", "avatar_file_size", "avatar_updated_at", "birthday", "created_at", "email", "gender", "location", "password_digest", "profile_img_url", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["avatar_content_type", nil], ["avatar_file_name", nil], ["avatar_file_size", nil], ["avatar_updated_at", nil], ["birthday", nil], ["created_at", Mon, 16 Sep 2013 00:22:42 UTC +00:00], ["email", "abc@yahoo.com"], ["gender", nil], ["location", nil], ["password_digest", "55555"], ["profile_img_url", nil], ["updated_at", Mon, 16 Sep 2013 00:22:42 UTC +00:00], ["username", "jeff"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by StoriesController#new as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+Completed 200 OK in 33ms (Views: 9.0ms | ActiveRecord: 0.4ms)
+  [1m[35m (2.2ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."username" = 'jeff' LIMIT 1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "users" ("avatar_content_type", "avatar_file_name", "avatar_file_size", "avatar_updated_at", "birthday", "created_at", "email", "gender", "location", "password_digest", "profile_img_url", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["avatar_content_type", nil], ["avatar_file_name", nil], ["avatar_file_size", nil], ["avatar_updated_at", nil], ["birthday", nil], ["created_at", Mon, 16 Sep 2013 00:22:43 UTC +00:00], ["email", "abc@yahoo.com"], ["gender", nil], ["location", nil], ["password_digest", "55555"], ["profile_img_url", nil], ["updated_at", Mon, 16 Sep 2013 00:22:43 UTC +00:00], ["username", "jeff"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.6ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."username" = 'jeff' LIMIT 1[0m
+  [1m[35mSQL (1.9ms)[0m  INSERT INTO "users" ("avatar_content_type", "avatar_file_name", "avatar_file_size", "avatar_updated_at", "birthday", "created_at", "email", "gender", "location", "password_digest", "profile_img_url", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["avatar_content_type", nil], ["avatar_file_name", nil], ["avatar_file_size", nil], ["avatar_updated_at", nil], ["birthday", nil], ["created_at", Mon, 16 Sep 2013 00:23:35 UTC +00:00], ["email", "abc@yahoo.com"], ["gender", nil], ["location", nil], ["password_digest", "55555"], ["profile_img_url", nil], ["updated_at", Mon, 16 Sep 2013 00:23:35 UTC +00:00], ["username", "jeff"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (1.8ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."username" = 'jeff' LIMIT 1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "users" ("avatar_content_type", "avatar_file_name", "avatar_file_size", "avatar_updated_at", "birthday", "created_at", "email", "gender", "location", "password_digest", "profile_img_url", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["avatar_content_type", nil], ["avatar_file_name", nil], ["avatar_file_size", nil], ["avatar_updated_at", nil], ["birthday", nil], ["created_at", Mon, 16 Sep 2013 00:23:35 UTC +00:00], ["email", "abc@yahoo.com"], ["gender", nil], ["location", nil], ["password_digest", "55555"], ["profile_img_url", nil], ["updated_at", Mon, 16 Sep 2013 00:23:35 UTC +00:00], ["username", "jeff"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by StoriesController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+Completed 200 OK in 83ms (Views: 8.9ms | ActiveRecord: 0.5ms)
+  [1m[36m (2.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+
+
+Started GET "/stories/new" for 127.0.0.1 at 2013-09-15 17:23:35 -0700
+Processing by StoriesController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+Redirected to http://www.example.com/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2013-09-15 17:23:35 -0700
+Processing by SessionsController#new as HTML
+Completed 200 OK in 14ms (Views: 13.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."username" = 'jeff' LIMIT 1[0m
+  [1m[35mSQL (2.0ms)[0m  INSERT INTO "users" ("avatar_content_type", "avatar_file_name", "avatar_file_size", "avatar_updated_at", "birthday", "created_at", "email", "gender", "location", "password_digest", "profile_img_url", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["avatar_content_type", nil], ["avatar_file_name", nil], ["avatar_file_size", nil], ["avatar_updated_at", nil], ["birthday", nil], ["created_at", Mon, 16 Sep 2013 00:24:24 UTC +00:00], ["email", "abc@yahoo.com"], ["gender", nil], ["location", nil], ["password_digest", "55555"], ["profile_img_url", nil], ["updated_at", Mon, 16 Sep 2013 00:24:24 UTC +00:00], ["username", "jeff"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by StoriesController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+Completed 200 OK in 83ms (Views: 9.8ms | ActiveRecord: 0.5ms)
+  [1m[36m (2.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+
+
+Started GET "/stories/new" for 127.0.0.1 at 2013-09-15 17:24:24 -0700
+Processing by StoriesController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+Redirected to http://www.example.com/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2013-09-15 17:24:24 -0700
+Processing by SessionsController#new as HTML
+Completed 200 OK in 15ms (Views: 14.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."username" = 'jeff' LIMIT 1[0m
+  [1m[35mSQL (1.9ms)[0m  INSERT INTO "users" ("avatar_content_type", "avatar_file_name", "avatar_file_size", "avatar_updated_at", "birthday", "created_at", "email", "gender", "location", "password_digest", "profile_img_url", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["avatar_content_type", nil], ["avatar_file_name", nil], ["avatar_file_size", nil], ["avatar_updated_at", nil], ["birthday", nil], ["created_at", Mon, 16 Sep 2013 00:24:45 UTC +00:00], ["email", "abc@yahoo.com"], ["gender", nil], ["location", nil], ["password_digest", "55555"], ["profile_img_url", nil], ["updated_at", Mon, 16 Sep 2013 00:24:45 UTC +00:00], ["username", "jeff"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (1.9ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."username" = 'jeff' LIMIT 1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "users" ("avatar_content_type", "avatar_file_name", "avatar_file_size", "avatar_updated_at", "birthday", "created_at", "email", "gender", "location", "password_digest", "profile_img_url", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["avatar_content_type", nil], ["avatar_file_name", nil], ["avatar_file_size", nil], ["avatar_updated_at", nil], ["birthday", nil], ["created_at", Mon, 16 Sep 2013 00:24:46 UTC +00:00], ["email", "abc@yahoo.com"], ["gender", nil], ["location", nil], ["password_digest", "55555"], ["profile_img_url", nil], ["updated_at", Mon, 16 Sep 2013 00:24:46 UTC +00:00], ["username", "jeff"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by StoriesController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+Completed 200 OK in 83ms (Views: 9.2ms | ActiveRecord: 0.5ms)
+  [1m[36m (2.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+
+
+Started GET "/stories/new" for 127.0.0.1 at 2013-09-15 17:24:46 -0700
+Processing by StoriesController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+Redirected to http://www.example.com/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2013-09-15 17:24:46 -0700
+Processing by SessionsController#new as HTML
+Completed 200 OK in 15ms (Views: 14.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.5ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."username" = 'jeff' LIMIT 1[0m
+  [1m[35mSQL (2.7ms)[0m  INSERT INTO "users" ("avatar_content_type", "avatar_file_name", "avatar_file_size", "avatar_updated_at", "birthday", "created_at", "email", "gender", "location", "password_digest", "profile_img_url", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["avatar_content_type", nil], ["avatar_file_name", nil], ["avatar_file_size", nil], ["avatar_updated_at", nil], ["birthday", nil], ["created_at", Mon, 16 Sep 2013 00:30:35 UTC +00:00], ["email", "abc@yahoo.com"], ["gender", nil], ["location", nil], ["password_digest", "55555"], ["profile_img_url", nil], ["updated_at", Mon, 16 Sep 2013 00:30:35 UTC +00:00], ["username", "jeff"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (1.6ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."username" = 'jeff' LIMIT 1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "users" ("avatar_content_type", "avatar_file_name", "avatar_file_size", "avatar_updated_at", "birthday", "created_at", "email", "gender", "location", "password_digest", "profile_img_url", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["avatar_content_type", nil], ["avatar_file_name", nil], ["avatar_file_size", nil], ["avatar_updated_at", nil], ["birthday", nil], ["created_at", Mon, 16 Sep 2013 00:30:35 UTC +00:00], ["email", "abc@yahoo.com"], ["gender", nil], ["location", nil], ["password_digest", "55555"], ["profile_img_url", nil], ["updated_at", Mon, 16 Sep 2013 00:30:35 UTC +00:00], ["username", "jeff"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by StoriesController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+Completed 200 OK in 16ms (Views: 11.6ms | ActiveRecord: 0.2ms)
+  [1m[36m (0.6ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+
+
+Started GET "/stories/new" for 127.0.0.1 at 2013-09-15 17:30:35 -0700
+Processing by StoriesController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+Redirected to http://www.example.com/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2013-09-15 17:30:35 -0700
+Processing by SessionsController#new as HTML
+Completed 200 OK in 15ms (Views: 14.4ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+
+
+Started GET "/stories/new" for 127.0.0.1 at 2013-09-15 17:32:05 -0700
+Processing by StoriesController#new as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+Redirected to http://www.example.com/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 8ms (ActiveRecord: 1.5ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2013-09-15 17:32:05 -0700
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 22ms (Views: 21.4ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."username" = 'jeff' LIMIT 1
+  [1m[36mSQL (1.9ms)[0m  [1mINSERT INTO "users" ("avatar_content_type", "avatar_file_name", "avatar_file_size", "avatar_updated_at", "birthday", "created_at", "email", "gender", "location", "password_digest", "profile_img_url", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["avatar_content_type", nil], ["avatar_file_name", nil], ["avatar_file_size", nil], ["avatar_updated_at", nil], ["birthday", nil], ["created_at", Mon, 16 Sep 2013 00:32:05 UTC +00:00], ["email", "abc@yahoo.com"], ["gender", nil], ["location", nil], ["password_digest", "55555"], ["profile_img_url", nil], ["updated_at", Mon, 16 Sep 2013 00:32:05 UTC +00:00], ["username", "jeff"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by StoriesController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+Completed 200 OK in 26ms (Views: 2.4ms | ActiveRecord: 0.5ms)
+  [1m[35m (1.9ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."username" = 'jeff' LIMIT 1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "users" ("avatar_content_type", "avatar_file_name", "avatar_file_size", "avatar_updated_at", "birthday", "created_at", "email", "gender", "location", "password_digest", "profile_img_url", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["avatar_content_type", nil], ["avatar_file_name", nil], ["avatar_file_size", nil], ["avatar_updated_at", nil], ["birthday", nil], ["created_at", Mon, 16 Sep 2013 00:32:05 UTC +00:00], ["email", "abc@yahoo.com"], ["gender", nil], ["location", nil], ["password_digest", "55555"], ["profile_img_url", nil], ["updated_at", Mon, 16 Sep 2013 00:32:05 UTC +00:00], ["username", "jeff"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (1.2ms)[0m  [1mINSERT INTO "stories" ("created_at", "location", "story_date", "story_entry", "story_photo_url", "story_time", "travel_image_content_type", "travel_image_file_name", "travel_image_file_size", "travel_image_updated_at", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Mon, 16 Sep 2013 00:32:05 UTC +00:00], ["location", "USA"], ["story_date", nil], ["story_entry", nil], ["story_photo_url", nil], ["story_time", nil], ["travel_image_content_type", nil], ["travel_image_file_name", nil], ["travel_image_file_size", nil], ["travel_image_updated_at", nil], ["updated_at", Mon, 16 Sep 2013 00:32:05 UTC +00:00], ["user_id", nil]]
+  [1m[35m (49.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by StoriesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mStory Load (0.1ms)[0m  SELECT "stories".* FROM "stories" WHERE "stories"."id" = ? LIMIT 1  [["id", "1"]]
+Completed 200 OK in 5ms (Views: 2.4ms | ActiveRecord: 0.3ms)
+  [1m[36m (0.5ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+Processing by StoriesController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+Redirected to http://test.host/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 8ms (ActiveRecord: 1.5ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."username" = 'jeff' LIMIT 1
+  [1m[36mSQL (51.0ms)[0m  [1mINSERT INTO "users" ("avatar_content_type", "avatar_file_name", "avatar_file_size", "avatar_updated_at", "birthday", "created_at", "email", "gender", "location", "password_digest", "profile_img_url", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["avatar_content_type", nil], ["avatar_file_name", nil], ["avatar_file_size", nil], ["avatar_updated_at", nil], ["birthday", nil], ["created_at", Mon, 16 Sep 2013 00:33:12 UTC +00:00], ["email", "abc@yahoo.com"], ["gender", nil], ["location", nil], ["password_digest", "55555"], ["profile_img_url", nil], ["updated_at", Mon, 16 Sep 2013 00:33:12 UTC +00:00], ["username", "jeff"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by StoriesController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+Completed 200 OK in 36ms (Views: 12.9ms | ActiveRecord: 0.6ms)
+  [1m[35m (0.6ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."username" = 'jeff' LIMIT 1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "users" ("avatar_content_type", "avatar_file_name", "avatar_file_size", "avatar_updated_at", "birthday", "created_at", "email", "gender", "location", "password_digest", "profile_img_url", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["avatar_content_type", nil], ["avatar_file_name", nil], ["avatar_file_size", nil], ["avatar_updated_at", nil], ["birthday", nil], ["created_at", Mon, 16 Sep 2013 00:33:12 UTC +00:00], ["email", "abc@yahoo.com"], ["gender", nil], ["location", nil], ["password_digest", "55555"], ["profile_img_url", nil], ["updated_at", Mon, 16 Sep 2013 00:33:12 UTC +00:00], ["username", "jeff"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "stories" ("created_at", "location", "story_date", "story_entry", "story_photo_url", "story_time", "travel_image_content_type", "travel_image_file_name", "travel_image_file_size", "travel_image_updated_at", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Mon, 16 Sep 2013 00:33:12 UTC +00:00], ["location", "USA"], ["story_date", nil], ["story_entry", nil], ["story_photo_url", nil], ["story_time", nil], ["travel_image_content_type", nil], ["travel_image_file_name", nil], ["travel_image_file_size", nil], ["travel_image_updated_at", nil], ["updated_at", Mon, 16 Sep 2013 00:33:12 UTC +00:00], ["user_id", nil]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by StoriesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mStory Load (0.1ms)[0m  SELECT "stories".* FROM "stories" WHERE "stories"."id" = ? LIMIT 1  [["id", "1"]]
+Completed 200 OK in 5ms (Views: 2.1ms | ActiveRecord: 0.3ms)
+  [1m[36m (0.4ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+Processing by StoriesController#new as HTML
+  [1m[35mUser Load (0.6ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+Redirected to http://test.host/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 10ms (ActiveRecord: 2.5ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."username" = 'jeff' LIMIT 1
+  [1m[36mSQL (2.8ms)[0m  [1mINSERT INTO "users" ("avatar_content_type", "avatar_file_name", "avatar_file_size", "avatar_updated_at", "birthday", "created_at", "email", "gender", "location", "password_digest", "profile_img_url", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["avatar_content_type", nil], ["avatar_file_name", nil], ["avatar_file_size", nil], ["avatar_updated_at", nil], ["birthday", nil], ["created_at", Mon, 16 Sep 2013 00:35:01 UTC +00:00], ["email", "abc@yahoo.com"], ["gender", nil], ["location", nil], ["password_digest", "55555"], ["profile_img_url", nil], ["updated_at", Mon, 16 Sep 2013 00:35:01 UTC +00:00], ["username", "jeff"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by StoriesController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+Completed 200 OK in 34ms (Views: 12.3ms | ActiveRecord: 0.5ms)
+  [1m[35m (0.5ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."username" = 'jeff' LIMIT 1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "users" ("avatar_content_type", "avatar_file_name", "avatar_file_size", "avatar_updated_at", "birthday", "created_at", "email", "gender", "location", "password_digest", "profile_img_url", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["avatar_content_type", nil], ["avatar_file_name", nil], ["avatar_file_size", nil], ["avatar_updated_at", nil], ["birthday", nil], ["created_at", Mon, 16 Sep 2013 00:35:01 UTC +00:00], ["email", "abc@yahoo.com"], ["gender", nil], ["location", nil], ["password_digest", "55555"], ["profile_img_url", nil], ["updated_at", Mon, 16 Sep 2013 00:35:01 UTC +00:00], ["username", "jeff"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (1.1ms)[0m  [1mINSERT INTO "stories" ("created_at", "location", "story_date", "story_entry", "story_photo_url", "story_time", "travel_image_content_type", "travel_image_file_name", "travel_image_file_size", "travel_image_updated_at", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Mon, 16 Sep 2013 00:35:01 UTC +00:00], ["location", "USA"], ["story_date", nil], ["story_entry", nil], ["story_photo_url", nil], ["story_time", nil], ["travel_image_content_type", nil], ["travel_image_file_name", nil], ["travel_image_file_size", nil], ["travel_image_updated_at", nil], ["updated_at", Mon, 16 Sep 2013 00:35:01 UTC +00:00], ["user_id", nil]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Processing by StoriesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mStory Load (0.1ms)[0m  SELECT "stories".* FROM "stories" WHERE "stories"."id" = ? LIMIT 1  [["id", "1"]]
+Completed 200 OK in 5ms (Views: 2.3ms | ActiveRecord: 0.3ms)
+  [1m[36m (0.6ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+Processing by StoriesController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+Redirected to http://test.host/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 9ms (ActiveRecord: 1.6ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."username" = 'jeff' LIMIT 1
+  [1m[36mSQL (2.4ms)[0m  [1mINSERT INTO "users" ("avatar_content_type", "avatar_file_name", "avatar_file_size", "avatar_updated_at", "birthday", "created_at", "email", "gender", "location", "password_digest", "profile_img_url", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["avatar_content_type", nil], ["avatar_file_name", nil], ["avatar_file_size", nil], ["avatar_updated_at", nil], ["birthday", nil], ["created_at", Mon, 16 Sep 2013 00:36:47 UTC +00:00], ["email", "abc@yahoo.com"], ["gender", nil], ["location", nil], ["password_digest", "55555"], ["profile_img_url", nil], ["updated_at", Mon, 16 Sep 2013 00:36:47 UTC +00:00], ["username", "jeff"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "stories" ("created_at", "location", "story_date", "story_entry", "story_photo_url", "story_time", "travel_image_content_type", "travel_image_file_name", "travel_image_file_size", "travel_image_updated_at", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["created_at", Mon, 16 Sep 2013 00:36:47 UTC +00:00], ["location", "USA"], ["story_date", nil], ["story_entry", nil], ["story_photo_url", nil], ["story_time", nil], ["travel_image_content_type", nil], ["travel_image_file_name", nil], ["travel_image_file_size", nil], ["travel_image_updated_at", nil], ["updated_at", Mon, 16 Sep 2013 00:36:47 UTC +00:00], ["user_id", nil]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by StoriesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mStory Load (0.2ms)[0m  [1mSELECT "stories".* FROM "stories" WHERE "stories"."id" = ? LIMIT 1[0m  [["id", "1"]]
+Completed 200 OK in 12ms (Views: 9.2ms | ActiveRecord: 0.3ms)
+  [1m[35m (2.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."username" = 'jeff' LIMIT 1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "users" ("avatar_content_type", "avatar_file_name", "avatar_file_size", "avatar_updated_at", "birthday", "created_at", "email", "gender", "location", "password_digest", "profile_img_url", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["avatar_content_type", nil], ["avatar_file_name", nil], ["avatar_file_size", nil], ["avatar_updated_at", nil], ["birthday", nil], ["created_at", Mon, 16 Sep 2013 00:36:47 UTC +00:00], ["email", "abc@yahoo.com"], ["gender", nil], ["location", nil], ["password_digest", "55555"], ["profile_img_url", nil], ["updated_at", Mon, 16 Sep 2013 00:36:47 UTC +00:00], ["username", "jeff"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by StoriesController#new as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+Completed 200 OK in 3ms (Views: 1.8ms | ActiveRecord: 0.1ms)
+  [1m[36m (0.6ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."username" = 'jeff' LIMIT 1[0m
+  [1m[35mSQL (1.9ms)[0m  INSERT INTO "users" ("avatar_content_type", "avatar_file_name", "avatar_file_size", "avatar_updated_at", "birthday", "created_at", "email", "gender", "location", "password_digest", "profile_img_url", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["avatar_content_type", nil], ["avatar_file_name", nil], ["avatar_file_size", nil], ["avatar_updated_at", nil], ["birthday", nil], ["created_at", Mon, 16 Sep 2013 00:36:58 UTC +00:00], ["email", "abc@yahoo.com"], ["gender", nil], ["location", nil], ["password_digest", "55555"], ["profile_img_url", nil], ["updated_at", Mon, 16 Sep 2013 00:36:58 UTC +00:00], ["username", "jeff"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+
+
+Started GET "/login" for 127.0.0.1 at 2013-09-15 17:36:58 -0700
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 74ms (Views: 73.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2013-09-15 17:36:58 -0700
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "username"=>"jeff", "password"=>"[FILTERED]", "commit"=>"Login"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."username" = 'jeff' AND "users"."password_digest" = '55555' LIMIT 1
+Redirected to http://www.example.com/me
+Completed 302 Found in 4ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/me" for 127.0.0.1 at 2013-09-15 17:36:58 -0700
+Processing by MeController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mStory Load (0.1ms)[0m  SELECT "stories".* FROM "stories" WHERE "stories"."user_id" = 1
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered me/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 17ms (Views: 12.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/stories/new" for 127.0.0.1 at 2013-09-15 17:36:59 -0700
+Processing by StoriesController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  Rendered stories/_form.html.erb (76.2ms)
+  Rendered stories/new.html.erb within layouts/application (81.7ms)
+Completed 200 OK in 110ms (Views: 89.8ms | ActiveRecord: 0.2ms)
+  [1m[36m (2.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."username" = 'jeff' LIMIT 1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "users" ("avatar_content_type", "avatar_file_name", "avatar_file_size", "avatar_updated_at", "birthday", "created_at", "email", "gender", "location", "password_digest", "profile_img_url", "updated_at", "username") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["avatar_content_type", nil], ["avatar_file_name", nil], ["avatar_file_size", nil], ["avatar_updated_at", nil], ["birthday", nil], ["created_at", Mon, 16 Sep 2013 00:36:59 UTC +00:00], ["email", "abc@yahoo.com"], ["gender", nil], ["location", nil], ["password_digest", "55555"], ["profile_img_url", nil], ["updated_at", Mon, 16 Sep 2013 00:36:59 UTC +00:00], ["username", "jeff"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+
+
+Started GET "/login" for 127.0.0.1 at 2013-09-15 17:36:59 -0700
+Processing by SessionsController#new as HTML
+Completed 200 OK in 8ms (Views: 8.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2013-09-15 17:36:59 -0700
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "username"=>"jeff", "password"=>"[FILTERED]", "commit"=>"Login"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."username" = 'jeff' AND "users"."password_digest" = '55555' LIMIT 1[0m
+Redirected to http://www.example.com/me
+Completed 302 Found in 2ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/me" for 127.0.0.1 at 2013-09-15 17:36:59 -0700
+Processing by MeController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mStory Load (0.1ms)[0m  [1mSELECT "stories".* FROM "stories" WHERE "stories"."user_id" = 1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 11ms (Views: 8.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/stories/new" for 127.0.0.1 at 2013-09-15 17:36:59 -0700
+Processing by StoriesController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  Rendered stories/_form.html.erb (64.1ms)
+Completed 200 OK in 73ms (Views: 71.3ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/stories" for 127.0.0.1 at 2013-09-15 17:36:59 -0700
+Processing by StoriesController#create as HTML
+  Parameters: {"utf8"=>"✓", "story"=>{"location"=>"USA", "story_date(1i)"=>"2013", "story_date(2i)"=>"9", "story_date(3i)"=>"16", "story_time(1i)"=>"2013", "story_time(2i)"=>"9", "story_time(3i)"=>"16", "story_time(4i)"=>"00", "story_time(5i)"=>"36", "story_entry"=>"", "user_id"=>"1"}, "commit"=>"Create Story"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "stories" ("created_at", "location", "story_date", "story_entry", "story_photo_url", "story_time", "travel_image_content_type", "travel_image_file_name", "travel_image_file_size", "travel_image_updated_at", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["created_at", Mon, 16 Sep 2013 00:36:59 UTC +00:00], ["location", "USA"], ["story_date", Mon, 16 Sep 2013], ["story_entry", ""], ["story_photo_url", nil], ["story_time", 2013-09-16 00:36:00 UTC], ["travel_image_content_type", nil], ["travel_image_file_name", nil], ["travel_image_file_size", nil], ["travel_image_updated_at", nil], ["updated_at", Mon, 16 Sep 2013 00:36:59 UTC +00:00], ["user_id", 1]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/stories/1
+Completed 302 Found in 8ms (ActiveRecord: 1.1ms)
+
+
+Started GET "/stories/1" for 127.0.0.1 at 2013-09-15 17:36:59 -0700
+Processing by StoriesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mStory Load (0.1ms)[0m  [1mSELECT "stories".* FROM "stories" WHERE "stories"."id" = ? LIMIT 1[0m  [["id", "1"]]
+Completed 200 OK in 15ms (Views: 11.9ms | ActiveRecord: 0.3ms)
+  [1m[35mStory Load (0.2ms)[0m  SELECT "stories".* FROM "stories" WHERE "stories"."user_id" = 1 LIMIT 1
+  [1m[36m (0.6ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction

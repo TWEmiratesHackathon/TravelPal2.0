@@ -1,0 +1,50 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @task.name %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @task.description %>
+</p>
+
+<p>
+  <b>Information:</b>
+  <%= @task.information %>
+</p>
+
+<p>
+  <b>Score:</b>
+  <%= @task.score %>
+</p>
+
+<p>
+  <b>Hint:</b>
+  <%= @task.hint %>
+</p>
+
+<p>
+  <b>Count:</b>
+  <%= @task.count %>
+</p>
+
+<p>
+  <b>Rank:</b>
+  <%= @task.rank %>
+</p>
+
+<p>
+  <b>Answer:</b>
+  <%= @task.answer %>
+</p>
+
+<p>
+  <b>Mission:</b>
+  <%= @task.mission_id %>
+</p>
+
+
+<%= link_to 'Edit', edit_task_path(@task) %> |
+<%= link_to 'Back', tasks_path %>

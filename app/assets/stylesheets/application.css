@@ -1,0 +1,95 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_self
+ *= require_tree .
+ */
+/*body{*/
+/*background-color:  yellow;*/
+/*}*/
+
+.navbar-fixed-top{
+    height:87px;
+}
+
+.navbar-fixed-top a{
+    line-height: 3em;
+}
+
+ul.navbar-nav a{
+    line-height: 4em;
+}
+
+.navbar-default{
+    background-color:  #98D2E5;
+}
+
+.accomplishment{
+    background-color:#495B69;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top:  15px;
+    height:  120px;
+
+}
+
+.accomplishment p{
+    /*margin-top: 20px;*/
+    font-size: 35px;
+    /*color: #D2EC3D;*/
+}
+
+.accomplishment span{
+    padding:  0px;
+    font-size: 15px;
+    color:  #B3B3B3;
+    margin-bottom: 15px;
+}
+
+.mapQuest{
+    background-color: #2EB5E4;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+body{
+    background-color: #4799B7;
+}
+
+.navbar-right a{
+    text-decoration: none;
+}
+
+.navbar-right a:hover{
+    color: #333333;
+}
+.top-buffer { margin-top:20px; }
+.bottom-buffer {margin-bottom: 20px;}
+
+.login, .signup{
+    line-height: 5em;
+}
+
+.login{
+    margin-left: 10px;
+}
+
+navbar-nav a{
+    font-size: 25px;
+}
+
+.thumbnail img {
+display: block;
+margin-left: auto;
+margin-right: auto;
+max-width: 100%;
+}

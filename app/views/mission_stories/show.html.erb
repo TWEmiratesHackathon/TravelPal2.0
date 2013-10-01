@@ -1,0 +1,30 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Mission:</b>
+  <%= @mission_story.mission_id %>
+</p>
+
+<p>
+  <b>User:</b>
+  <%= @mission_story.user_id %>
+</p>
+
+<p>
+  <b>From date:</b>
+  <%= @mission_story.from_date %>
+</p>
+
+<p>
+  <b>To date:</b>
+  <%= @mission_story.to_date %>
+</p>
+
+<p>
+  <b>Like count:</b>
+  <%= @mission_story.like_count %>
+</p>
+
+
+<%= link_to 'Edit', edit_mission_story_path(@mission_story) %> |
+<%= link_to 'Back', mission_stories_path %>

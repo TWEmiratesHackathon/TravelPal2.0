@@ -1,0 +1,31 @@
+<h1>Listing mission_stories</h1>
+
+<table>
+  <tr>
+    <th>Mission</th>
+    <th>User</th>
+    <th>From date</th>
+    <th>To date</th>
+    <th>Like count</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @mission_stories.each do |mission_story| %>
+  <tr>
+    <td><%= mission_story.mission_id %></td>
+    <td><%= mission_story.user_id %></td>
+    <td><%= mission_story.from_date %></td>
+    <td><%= mission_story.to_date %></td>
+    <td><%= mission_story.like_count %></td>
+    <td><%= link_to 'Show', mission_story %></td>
+    <td><%= link_to 'Edit', edit_mission_story_path(mission_story) %></td>
+    <td><%= link_to 'Destroy', mission_story, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Mission story', new_mission_story_path %>

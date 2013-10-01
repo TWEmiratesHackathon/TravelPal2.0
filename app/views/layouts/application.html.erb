@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>TravelPal</title>
+
+  <%= stylesheet_link_tag    "bootstrap", :media => "all" %>
+  <%= stylesheet_link_tag    "sticky-footer-navbar", :media => "all" %>
+  <%= stylesheet_link_tag    "signin", :media => "all" %>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+
+  <%= javascript_include_tag "application" %>
+  <%= javascript_include_tag "jquery" %>
+  <%= javascript_include_tag "jquery_ujs" %>
+  <%= javascript_include_tag "main" %>
+  <%= javascript_include_tag "bootstrap" %>
+  <%= javascript_include_tag "holder" %>
+  <%= javascript_include_tag "googlemap" %>
+  <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDY0kkJiTPVd2U7aTOAwhc9ySH6oHxOIYM&sensor=false">
+  </script>
+  <script>
+
+      var sanfrancisco = new google.maps.LatLng(37.7833, -122.4167);
+      var newyork = new google.maps.LatLng(40.6700, -73.9400);
+      var vegas = new google.maps.LatLng(36.0800, -115.1522);
+      var losangeles = new google.maps.LatLng(34.0500, -118.2500);
+      var marker1;
+      var marker2;
+      var marker3;
+      var marker4;
+
+      function initialize()
+      {
+          var mapProp = {
+              center:new google.maps.LatLng(51.508742,-0.120850),
+              zoom:2,
+              mapTypeId:google.maps.MapTypeId.ROADMAP
+          };
+          var map=new google.maps.Map(document.getElementById("googleMap")
+                  ,mapProp);
+
+          marker1 = new google.maps.Marker({
+              map:map,
+              draggable:false,
+              animation: google.maps.Animation.DROP,
+              position: sanfrancisco
+
+          });
+
+          marker2 = new google.maps.Marker({
+              map:map,
+              draggable:false,
+              animation: google.maps.Animation.DROP,
+              position: newyork
+
+          });
+
+          marker3 = new google.maps.Marker({
+              map:map,
+              draggable:false,
+              animation: google.maps.Animation.DROP,
+              position: vegas
+
+          });
+
+          marker4 = new google.maps.Marker({
+              map:map,
+              draggable:false,
+              animation: google.maps.Animation.DROP,
+              position: losangeles
+
+          });
+
+
+
+          google.maps.event.addListener(marker, 'click', toggleBounce);
+
+      }
+
+      function toggleBounce() {
+
+          if (marker.getAnimation() != null) {
+              marker.setAnimation(null);
+          } else {
+              marker.setAnimation(google.maps.Animation.BOUNCE);
+          }
+      }
+
+      google.maps.event.addDomListener(window, 'load', initialize);
+  </script>
+
+  <%= csrf_meta_tags %>
+
+</head>
+<body>
+<!-- Wrap all page content here -->
+<div id="wrap">
+
+  <!-- Fixed navbar -->
+  <div class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <%= link_to 'TravelPal', home_url, :class=>"navbar-brand" %>
+
+      </div>
+      <div class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li><%= link_to 'Home', home_url %></li>
+          <li><%= link_to 'My Account', me_url %></li>
+          <li><a href="">About</a></li>
+
+        </ul>
+        <div class="row">
+          <div class="col-md-offset-5 col-md-2">
+            <!--<ul class="nav navbar-nav">-->
+              <!--<li><a href="" style="line-height: 4em;">Signup</a></li>-->
+              <!--<li><a href="" style="line-height: 4em;">Login</a></li>-->
+            <!--</ul>-->
+            <ul class="nav navbar-nav navbar-right">
+              <% if session[:user_id] %>
+                  <li><%= link_to 'Logout', logout_url %></li>
+              <% else %>
+                  <li><%= link_to 'Signup', signup_url,:class=>"signup" %></li>
+                  <li><%= link_to 'Login', login_url,:class=>"login" %></li>
+              <% end %>
+            <!--<a href="" style="line-height: 6em;">Signup</a>-->
+              <!--<a href="" style="margin-left: 10px; line-height: 6em;">Login</a>-->
+            </ul>
+          </div>
+        </div>
+
+      </div><!--/.nav-collapse -->
+
+
+
+
+    </div>
+  </div>
+
+  <!-- Begin page content -->
+
+  <%= yield %>
+
+  <!--<div class="page-header">-->
+  <!--<h1>Sticky footer with fixed navbar</h1>-->
+  <!--</div>-->
+  <!--<p class="lead">Pin a fixed-height footer to the bottom of the viewport in desktop browsers with this custom HTML and CSS. A fixed navbar has been added within <code>#wrap</code> with <code>padding-top: 60px;</code> on the <code>.container</code>.</p>-->
+  <!--<p>Back to <a href="../sticky-footer">the default sticky footer</a> minus the navbar.</p>-->
+
+
+
+</div>
+<!--end of wrapper-->
+<div id="footer">
+  <div class="container">
+    <p class="text-muted credit"><a href="http://ryanfait.com/sticky-footer/">TravelPal</a> 2013</p>
+  </div>
+</div>
+
+
+</body>
+</html>
+

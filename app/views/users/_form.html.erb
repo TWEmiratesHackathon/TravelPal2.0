@@ -1,0 +1,59 @@
+<div class="container">
+  <div style="margin-top: 70px;">
+    <%= form_for @user, :html => { :multipart => true} do |f| %>
+        <% if @user.errors.any? %>
+            <div id="error_explanation">
+              <h2><%= pluralize(@user.errors.count, "error") %> prohibited this user from being saved:</h2>
+
+              <ul>
+                <% @user.errors.full_messages.each do |msg| %>
+                    <li><%= msg %></li>
+                <% end %>
+              </ul>
+            </div>
+        <% end %>
+
+
+        <div class="field top-buffer">
+
+          <%= f.text_field :username, :class=>"form-control", :placeholder=>"Username" %>
+        </div>
+        <div class="field">
+
+          <%= f.password_field :password_digest, :class=>"form-control", :placeholder=>"Password" %>
+        </div>
+
+
+        <div class="field">
+
+          <%= f.text_field :location, :class=>"form-control", :placeholder=>"Location" %>
+        </div>
+
+        <div class="field">
+
+          <%= f.email_field :email, :class=>"form-control", :placeholder=>"Email" %>
+        </div>
+
+
+        <div class="field">
+          <label style="margin-top: 20px; color:#495B69;">Upload Profile Image:</label>
+          <%= f.file_field :avatar %>
+        </div>
+
+        <div class="field">
+          <%= f.label :birthday, :class=> "top-buffer birthday" %><br />
+          <%= f.date_select :birthday, :class=>"form-control", :placeholder=>"Birthday" %>
+        </div>
+
+        <div class="actions">
+
+          <%= f.submit 'Signup', class:"btn btn-lg btn-primary top-buffer"  %>
+          <%= link_to 'Back', home_url, :class => "btn btn-lg btn-primary top-buffer" %>
+        </div>
+    <% end %>
+
+  </div>
+
+
+</div>
+

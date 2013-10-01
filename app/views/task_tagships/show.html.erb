@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Task:</b>
+  <%= @task_tagship.task_id %>
+</p>
+
+<p>
+  <b>Tag:</b>
+  <%= @task_tagship.tag_id %>
+</p>
+
+
+<%= link_to 'Edit', edit_task_tagship_path(@task_tagship) %> |
+<%= link_to 'Back', task_tagships_path %>

@@ -1,0 +1,42 @@
+<div class="container stories">
+  <div style="margin-top:  80px;">
+  <div class="row bottom-buffer story_list">
+    <% @stories.each do |story| %>
+    <div class="col-sm-6 col-md-3 bottom-buffer">
+      <div class="thumbnail">
+
+        <% if story.travel_image_file_name %>
+            <%= image_tag story.travel_image.url(:medium) %>
+        <% else %>
+            <img data-src="holder.js/300x200" alt="...">
+        <% end %>
+
+        <div class="caption">
+          <h4><%= story.location %></h4>
+          <p><%= story.story_date.to_formatted_s(:long)%></p>
+          <p><%= story.story_entry %></p>
+          </div>
+        </div>
+      </div>
+    <% end %>
+  </div>
+  </div>
+
+</div>
+
+
+<div class="container" style="padding-top:5px;">
+
+
+<div class="row top-buffer">
+
+  <div class="col-md-offset-5 col-md-4">
+    <ul class="pagination" data-total_page="<%= @response[2]%>" data-current_page="<%= @response[3]%>" data-previous_page="<%= @response[4]%>" >
+
+    </ul>
+
+  </div>
+
+</div>
+
+</div> <!--container-->

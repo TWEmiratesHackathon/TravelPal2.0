@@ -1,0 +1,38 @@
+<div class="container">
+  <div style="margin-top:  70px;">
+    <h1>Listing stories</h1>
+
+    <table>
+      <tr>
+        <th>Location</th>
+        <th>Story date</th>
+        <th>Story time</th>
+        <th>Story entry</th>
+        <th>Story photo url</th>
+        <th>User</th>
+        <th></th>
+        <th></th>
+        <th></th>
+      </tr>
+
+      <% @stories.each do |story| %>
+          <tr>
+            <td><%= story.location %></td>
+            <td><%= story.story_date %></td>
+            <td><%= story.story_time %></td>
+            <td><%= story.story_entry %></td>
+            <td><%= story.story_photo_url %></td>
+            <td><%= story.user_id %></td>
+            <td><%= link_to 'Show', story %></td>
+            <td><%= link_to 'Edit', edit_story_path(story) %></td>
+            <td><%= link_to 'Destroy', story, data: { confirm: 'Are you sure?' }, method: :delete %></td>
+          </tr>
+      <% end %>
+    </table>
+
+    <br />
+
+    <%= link_to 'New Story', new_story_path %>
+  </div>
+
+</div>

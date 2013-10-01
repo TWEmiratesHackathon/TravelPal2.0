@@ -1,0 +1,46 @@
+<div class="container marketing">
+
+  <!-- START THE FEATURETTES -->
+
+  <hr class="featurette-divider">
+
+  <div class="row featurette">
+    <div class="col-md-6">
+      <h2 class="featurette-heading">On a romantic Saturday night, <span style="color:#ADC2CA">jyhsu found himself at Golden Gate Bridge.</span></h2>
+      <p class="lead">He climbed up to the mountain and watched the city view quietly.  He is amazed at the shots he was able to get of the Bridge with each subsequent visit.</p>
+    </div>
+    <div class="col-md-6">
+      <%= image_tag @transactions.find(1).tx_image.url(:large) %>
+    </div>
+  </div>
+
+  <hr class="featurette-divider">
+
+  <div class="row featurette">
+    <div class="col-md-6">
+      <%= image_tag @transactions.find(8).tx_image.url(:large) %>
+    </div>
+    <div class="col-md-6">
+      <h2 class="featurette-heading">San Francisco Victorian houses, <span style="color:#ADC2CA">known as Painted ladies,</span></h2>
+      <p class="lead">were built in San Francisco between 1849 and 1915.  The houses were built by developer Matthew Kavanaugh, who lived next door in the 1892 mansion at 722 Steiner Street.</p>
+    </div>
+  </div>
+
+  <hr class="featurette-divider">
+
+  <div class="row featurette">
+    <div class="col-md-6">
+      <h2 class="featurette-heading">At the top of Twin Peaks in San Francisco, <span style="color:#ADC2CA">jyhsu found himself staring at the skyscrapers.</span></h2>
+      <p class="lead">This is his first time sitting on top of Twin Peaks and he will never forget this amazing night view.</p>
+    </div>
+    <div class="col-md-6">
+      <%= image_tag @transactions.find(9).tx_image.url(:large) %>
+    </div>
+  </div>
+
+  <hr class="featurette-divider">
+
+  <!-- /END THE FEATURETTES -->
+
+</div><!-- /.container -->
+

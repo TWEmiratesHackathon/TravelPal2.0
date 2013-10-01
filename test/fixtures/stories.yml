@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  location: MyString
+  story_date: 2013-09-08
+  story_time: 2013-09-08 13:51:37
+  story_entry: MyText
+  story_photo_url: MyString
+  user_id: 1
+
+two:
+  location: MyString
+  story_date: 2013-09-08
+  story_time: 2013-09-08 13:51:37
+  story_entry: MyText
+  story_photo_url: MyString
+  user_id: 1

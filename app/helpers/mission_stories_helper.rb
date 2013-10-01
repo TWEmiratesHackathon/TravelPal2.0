@@ -1,0 +1,2 @@
+module MissionStoriesHelper
+end

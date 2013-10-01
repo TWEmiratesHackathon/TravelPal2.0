@@ -1,0 +1,24 @@
+<div class="container">
+  <div style="margin-top:  130px;">
+  <% if flash[:alert] %>
+      <p id ="notice"><%= flash[:alert] %></p>
+  <% end %>
+
+  <%= form_tag({}, {:class => "form-signin"}) do %>
+      <!--<form class="form-signin">-->
+      <h2 class="form-signin-heading">Please sign in</h2>
+
+      <%= text_field_tag :username, params[:username], :class=> "form-control", :placeholder=>"Username"%>
+      <%= password_field_tag :password, params[:password], :class=> "form-control", :placeholder=>"Password"%>
+      <!--<input type="text" class="form-control" placeholder="Email address" autofocus>-->
+      <!--<input type="password" class="form-control" placeholder="Password">-->
+
+      <%= submit_tag "Login", :class=>"btn btn-lg btn-primary btn-block" %>
+      <!--<button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>-->
+  <% end %>
+  </div>
+</div>
+
+
+
+

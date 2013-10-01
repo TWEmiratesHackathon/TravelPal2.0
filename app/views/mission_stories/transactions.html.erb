@@ -1,0 +1,29 @@
+<h1>Listing transactions</h1>
+
+<table>
+  <tr>
+    <th>User</th>
+    <th>Task</th>
+    <th>Rank</th>
+    <th>Accomplish date</th>
+    <th>Weather</th>
+    <th>Mission Story</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+  <% @transactions.each do |transaction| %>
+      <tr>
+        <td><%= transaction.user_id %></td>
+        <td><%= transaction.task_id %></td>
+        <td><%= transaction.rank %></td>
+        <td><%= transaction.accomplish_date %></td>
+        <td><%= transaction.weather %></td>
+        <td><%= transaction.mission_story_id %></td>
+        <td><%= link_to 'Show', transaction %></td>
+        <td><%= link_to 'Edit', edit_transaction_path(transaction) %></td>
+        <td><%= link_to 'Destroy', transaction, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+  <% end %>
+</table>
